@@ -11,7 +11,7 @@ import java.util.Scanner;
 /**
  *
  * @author T
- * @coder: TMRM
+ * @contributor: TMRM
  * @project: Intro To Java - Scanners & Integers Interact
  * @version: 1.0 
  * @since May 20, 2020
@@ -81,7 +81,33 @@ public class IntsAndScanner {
     System.out.println("You have entered the word: " + word1);
     
 ////////////////////////////////////////////////////////////////////////////////
-
+    
+ //EX. 3 Replace the kb.nextLine command with kb.next 
+   ///EXPECTING AN INTERGER AS INPUT
+   //Ask the user to enter a number
+   System.out.println("Please Enter a number:");
+   //Pull the user input into the memory buffer
+   int num2 = kb.nextInt();
+   //Print the buffer contents
+    System.out.println("You have entered the number: " + num2);     
+    
+    ///EXPECTING A DOUBLE AS INPUT
+       //Ask the user to enter a number
+   System.out.println("Please Enter a decimal:");
+   //Pull the user input into the memory buffer
+   double dub2 = kb.nextDouble();
+   //Print the buffer contents
+    System.out.println("You have entered the decimal: " + dub2);  
+    
+ //Ask the user to enter a word
+   System.out.println("Please Enter a word:");
+   //Pull the user input into the memory buffer
+   String word2;
+   word2 = kb.next();
+   //Print the buffer contents
+    System.out.println("You have entered the word: " + word2);
+    
+////////////////////////////////////////////////////////////////////////////////
 
     }
 
