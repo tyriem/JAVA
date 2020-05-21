@@ -54,6 +54,7 @@ public class Conditions {
        {
           System.out.println("HAVE A BEER");
        }
+       //WHERE THERE IS AN ELSE IT EXECUTES ITS CONTENTS WHEN THE IF IS NOT SATISFIED
        else
        {
           System.out.println("YOU ARE TOO YOUNG TO BE SERVED");
