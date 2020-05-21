@@ -9,7 +9,7 @@ package relationaloperators;
 /**
  *
  * @author T
- * @coder: TMRM
+ * @contributor: TMRM
  * @project: Intro To Java - Comparing Things with Relational Operators (==, !=, <,>, <=, >=) Yielding T or F
  * @version: 1.0 
  * @since May 20, 2020
