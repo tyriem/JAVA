@@ -11,7 +11,7 @@ import java.util.Scanner;
 /**
  *
  * @author T
- * @coder: TMRM
+ * @contributor: TMRM
  * @project: Intro To Java - User Input & Evaluation of Relational Operators
  * @version: 1.0 
  * @since May 20, 2020
