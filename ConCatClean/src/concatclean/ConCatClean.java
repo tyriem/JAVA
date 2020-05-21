@@ -9,7 +9,7 @@ package concatclean;
 /**
  *
  * @author T
- * @coder: TMRM
+ * @contributor: TMRM
  * @project: Intro To Java - Concatenation Formatting
  * @version: 1.0 
  * @since May 19, 2020
