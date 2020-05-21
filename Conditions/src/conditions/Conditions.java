@@ -50,15 +50,14 @@ public class Conditions {
        //BE SURE TO CHECK THE VALUE ITSELF IN THE IF STATEMENT (18 IN THIS CASE) AS THAT IS WHEN A STATEMENT IS EVALUATED
        //BE SURE NOT TO PUT A ; AT THE END OF THE IF, AS IT WILL EVALUATE AND JUST RUN THE NEXT LINE OF CODE
        int ageDrink = 16;
-       if (ageDrink < 18)
-       {
-           System.out.println("YOU ARE TOO YOUNG TO BE SERVED");
-       }
        if (ageDrink >= 18)
        {
           System.out.println("HAVE A BEER");
        }
-       
+       else
+       {
+          System.out.println("YOU ARE TOO YOUNG TO BE SERVED");
+       }
 ////////////////////////////////////////////////////////////////////////////////
     }
 
