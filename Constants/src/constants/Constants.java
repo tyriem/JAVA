@@ -58,17 +58,20 @@ public class Constants {
      
      ///Quick arithmetic
      //These two calculations are exactly the same to JAVA
+     int i = 0;
      i = i + 1;
      //Compound Operator
      i += 1;
      
      ///Incrementing
      //Every + you add after the first you add 1
-     j+1
-     j++ 
+     int j = 1;
+     j = j + 1;
+     j++;
      
      //These two calculations are exactly the same to JAVA 
-     k = k -8
+     int k = 2;
+     k = k - 8;
      k-=8;
              
     }
