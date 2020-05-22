@@ -70,7 +70,9 @@ public class Conditions {
        int ageDrinkIn = kb.nextInt();
        if (ageDrinkIn >= 18)
                {
-       //WE USE THE .EQUALS TO EVLAUATE THE CONTENTS OF THE GENDER BUFFER CORRECTLY AS A STRING INSTEAD OF AS A BOOL (WHICH IS THE CASE IF WE USE ==)            
+       //WHEN COMPARING STRINGS USE THE .EQUALS INSTEAD OF == AS == CHECKS TO SEE IF OBJs ARE |EXACTLY| THE SAME NOT IF THEY HAVE THE SAME STRING CONTENTS
+       //WE USE THE .EQUALS TO EVLAUATE THE CONTENTS OF THE GENDER BUFFER CORRECTLY
+       //https://stackoverflow.com/questions/658953/if-statement-with-string-comparison-fails
        if (gender.equals("M"))
        {          
                      System.out.println("HAVE A BEER");
