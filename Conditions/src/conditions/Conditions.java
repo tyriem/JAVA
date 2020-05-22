@@ -65,22 +65,33 @@ public class Conditions {
 ///CONDITIONAL EVALUATION OF USER INPUT OF AGE DRINKING AND GENDER
        Scanner kb = new Scanner(System.in);
        System.out.println("Please Enter Your Gender: (M OR F)");
-       String gender = kb.nextLine();
+///CONVERT THE USER INPUT INTO PREDICTED TEXT 'M'
+       //Accept The Raw User Input
+       String rawGender = kb.nextLine();
+       //Strip the first character of their input
+       char genderChar = rawGender.charAt(0);
+       //Convert the character to a String (This is optional as you could process the char but that would alter the later code)
+       String genderProc =Character.toString(genderChar);  
+       //Convert the String To UpperCase
+       String gender = genderProc.toUpperCase();
+       //Print the prompt for the user age
        System.out.println("Please Enter Your Age:");
+///NESTED IF STATEMENT TO DETERMINE GENDER AND AGE 
+       //Place the input into an int
        int ageDrinkIn = kb.nextInt();
        if (ageDrinkIn >= 18)
-               {
+       {
        //WHEN COMPARING STRINGS USE THE .EQUALS INSTEAD OF == AS == CHECKS TO SEE IF OBJs ARE |EXACTLY| THE SAME NOT IF THEY HAVE THE SAME STRING CONTENTS
        //WE USE THE .EQUALS TO EVLAUATE THE CONTENTS OF THE GENDER BUFFER CORRECTLY
        //https://stackoverflow.com/questions/658953/if-statement-with-string-comparison-fails
-       if (gender.equals("M"))
-       {          
+                if (gender.equals("M"))
+                {          
                      System.out.println("HAVE A BEER");
-       }
-         else
+                }
+                else
                      System.out.println("HAVE A GLASS OF WINE");  
 
-               }
+        }
        else 
                System.out.println("YOU ARE TOO YOUNG TO BE SERVED HERE");
                }
