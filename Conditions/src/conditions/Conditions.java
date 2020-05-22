@@ -6,6 +6,7 @@
 
 package conditions;
 
+import java.util.Scanner;
 /**
  *
  * @author T
@@ -16,6 +17,7 @@ package conditions;
  */
 public class Conditions {
 
+    Scanner kb = new Scanner(System.in);
     /**
      * @param args the command line arguments
      */
@@ -60,6 +62,25 @@ public class Conditions {
           System.out.println("YOU ARE TOO YOUNG TO BE SERVED");
        }
 ////////////////////////////////////////////////////////////////////////////////
+///CONDITIONAL EVALUATION OF USER INPUT OF AGE DRINKING AND GENDER
+       Scanner kb = new Scanner(System.in);
+       System.out.println("Please Enter Your Gender: (M OR F)");
+       String gender = kb.nextLine();
+       System.out.println("Please Enter Your Age:");
+       int ageDrinkIn = kb.nextInt();
+       if (ageDrinkIn >= 18)
+               {
+       //WE USE THE .EQUALS TO EVLAUATE THE CONTENTS OF THE GENDER BUFFER CORRECTLY AS A STRING INSTEAD OF AS A BOOL (WHICH IS THE CASE IF WE USE ==)            
+       if (gender.equals("M"))
+       {          
+                     System.out.println("HAVE A BEER");
+       }
+         else
+                     System.out.println("HAVE A GLASS OF WINE");  
+
+               }
+       else 
+               System.out.println("YOU ARE TOO YOUNG TO BE SERVED HERE");
+               }
     }
 
-}
