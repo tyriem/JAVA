@@ -64,7 +64,7 @@ public class Conditions {
 ////////////////////////////////////////////////////////////////////////////////
 ///CONDITIONAL EVALUATION OF USER INPUT OF AGE DRINKING AND GENDER
        Scanner kb = new Scanner(System.in);
-       System.out.println("Please Enter Your Gender: (M OR F)");
+       System.out.println("Please Enter Your Gender: (Male OR Female)");
 ///CONVERT THE USER INPUT INTO PREDICTED TEXT 'M'
        //Accept The Raw User Input
        String rawGender = kb.nextLine();
