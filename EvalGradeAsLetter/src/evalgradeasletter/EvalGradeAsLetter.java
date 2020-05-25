@@ -11,7 +11,7 @@ import java.util.Scanner;
 /**
  *
  * @author T
- * @contributor: TMRM
+ * @contributor: TMRM & Group #2
  * @project: Intro To Java - Evaluating Numerical Grade as Letter Grade
  * @version: 1.0 
  * @since May 25, 2020
