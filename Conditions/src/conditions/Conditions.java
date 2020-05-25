@@ -71,7 +71,7 @@ public class Conditions {
        //Strip the first character of their input
        char genderChar = rawGender.charAt(0);
        //Convert the character to a String (This is optional as you could process the char but that would alter the later code)
-       String genderProc =Character.toString(genderChar);  
+       String genderProc = Character.toString(genderChar);  
        //Convert the String To UpperCase
        String gender = genderProc.toUpperCase();
        //Print the prompt for the user age
