@@ -35,11 +35,11 @@ public class EvalLuckNum {
            double total = (number1 + number2);
            if (total == 7)
               {
-              System.out.println("YOU HIT THE LUCKY NUMBER");
+              System.out.println("YOU HIT THE LUCKY NUMBER!");
               }
            else if (total < 7)
               {
-              System.out.println("YOU WERE ALMOST THERE");  
+              System.out.println("YOU WERE ALMOST THERE...");  
               }
            else
               System.out.println("YOU COMPLETELY LOST!");  
