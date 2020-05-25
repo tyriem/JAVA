@@ -80,18 +80,18 @@ public class Conditions {
        //Place the input into an int
        int ageDrinkIn = kb.nextInt();
        if (ageDrinkIn >= 18)
-       {
+          {
        //WHEN COMPARING STRINGS USE THE .EQUALS INSTEAD OF == AS == CHECKS TO SEE IF OBJs ARE |EXACTLY| THE SAME NOT IF THEY HAVE THE SAME STRING CONTENTS
        //WE USE THE .EQUALS TO EVLAUATE THE CONTENTS OF THE GENDER BUFFER CORRECTLY
        //https://stackoverflow.com/questions/658953/if-statement-with-string-comparison-fails
                 if (gender.equals("M"))
-                {          
+                     {          
                      System.out.println("HAVE A BEER");
-                }
+                     }
                 else
                      System.out.println("HAVE A GLASS OF WINE");  
 
-        }
+          }
        else 
                System.out.println("YOU ARE TOO YOUNG TO BE SERVED HERE");
                }
