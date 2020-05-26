@@ -51,7 +51,7 @@ public class EvalGradeAsLetter {
               System.out.println("YOUR GRADE IS AN A");
               }
            else
-              System.out.println("");  
+              System.out.println("INVALID SCORE");  
     }
 
 }
