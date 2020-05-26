@@ -46,7 +46,7 @@ public class EvalGradeAsLetter {
               {
               System.out.println("YOUR GRADE IS AN B");
               }
-           else if (grade < 100 && grade >= 90 )
+           else if (grade <= 100 && grade >= 90 )
               {
               System.out.println("YOUR GRADE IS AN A");
               }
