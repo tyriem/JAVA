@@ -13,7 +13,7 @@ import java.util.Scanner;
  * @author T
  * @contributor: TMRM & Group #2
  * @project: Intro To Java - Evaluating Numerical Grade as Letter Grade
- * @version: 1.0 
+ * @version: 1.1 
  * @since May 25, 2020
  */
 public class EvalGradeAsLetter {
