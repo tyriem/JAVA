@@ -24,20 +24,20 @@ public class LabExerIfMean {
  Scanner kb = new Scanner(System.in);
 //ACCEPT USER INPUT OF GRADES
         System.out.println("Enter the first test score: ");
-          //Pull the user input into the memory buffer
+          //Pull the first user input into the memory buffer
           double testScore1 = kb.nextInt();
         System.out.println("Enter the second test score: ");
-          //Pull the user input into the memory buffer
+          //Pull the second user input into the memory buffer
           double testScore2 = kb.nextInt();
           System.out.println("Enter the third test score: ");
-          //Pull the user input into the memory buffer
+          //Pull the third user input into the memory buffer
           double testScore3 = kb.nextInt();
            //WE USE TOTAL INSTEAD OF SUM AS SUM HAS A SPECIFIC MEANING IN SOME PROGRAMMING LANGUAGE  
            double total = ((testScore1 + testScore2 + testScore3)/3);
            
            //PRINT THE GRADE AVERAGE
            System.out.println("The average of the test scores is " + Math.round(total) + "%");
-           //EVALUATE THE INPUT GRADE 
+           //EVALUATE THE INPUT GRADE & PRINT THE RESPONSE
 
            if (total < 60)
               {
