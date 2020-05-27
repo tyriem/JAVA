@@ -10,8 +10,8 @@ import java.util.Scanner;
 /**
  *
  * @author T
- * @contributor: TMRM
- * @project: Intro To Java - 
+ * @contributor: TMRM & Group #2
+ * @project: Intro To Java - Evaluate If The User Rolls an Even or an Odd Number
  * @version: 1.0 
  * @since May 26, 2020
  */
