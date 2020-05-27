@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author T
  * @contributor: TMRM
- * @project: Intro To Java - 
+ * @project: Intro To Java - Lab Exercise: If Loops as Output of Mean Calculation
  * @version: 1.0 
  * @since May 27, 2020
  */
