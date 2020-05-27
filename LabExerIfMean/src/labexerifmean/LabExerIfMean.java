@@ -34,6 +34,9 @@ public class LabExerIfMean {
           double testScore3 = kb.nextInt();
            //WE USE TOTAL INSTEAD OF SUM AS SUM HAS A SPECIFIC MEANING IN SOME PROGRAMMING LANGUAGE  
            double total = ((testScore1 + testScore2 + testScore3)/3);
+           
+           //PRINT THE GRADE AVERAGE
+           System.out.println("The average of the test scores is " + Math.round(total) + "%");
            //EVALUATE THE INPUT GRADE 
 
            if (total < 60)
