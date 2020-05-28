@@ -47,18 +47,17 @@ public class LogicalOperators {
       System.out.println("YOUR CAR IS STRESSED! "); 
        }
  
-         // !(NOT) - Logical operator that connects two boolean expressions
-        // ! works to check if BOTH expressions are flase, if both are true or one is true it will evaluate as false
-        int heat = 100;
-        int humidity = 100;
-    if (heat < 100 ! humidity < 100)
-       {
-    System.out.println("YOUR CAR IS FINE! ");
-       }
-    else
-       {
-      System.out.println("YOUR CAR IS STRESSED! "); 
-       }
-
+         // !(NOT) - Logical operator that evaluates a boolean value
+        // ! works to check if a boolean value is not true
+boolean isValid = true;
+ 
+if (!isValid) 
+{
+    System.out.println("Invalid");
+}
+else 
+{
+     System.out.println("Valid!");
+} 
     }
 }
