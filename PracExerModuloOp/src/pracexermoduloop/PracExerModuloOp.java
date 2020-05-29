@@ -5,11 +5,11 @@
  */
 
   /*
-OBJECTIVE: Write	some	code	that	accepts	a	value between	
-0	and	100	cents. Your	code	must	output	the	
-best	way	(the	fewest	number	of	coins)	to	make	
-the	amount	using	quarters	(25c),	dimes	(10c),	
-nickels	(5c)	and	pennies	(1c).
+OBJECTIVE: Write some code that	accepts	a value between	
+0 and 100 cents. Your code must	output	the	
+best way (the fewest number of	coins) to make	
+the amount using quarters (25c),	dimes (10c),	
+nickels	(5c) and pennies (1c).
   */
 package pracexermoduloop;
 
