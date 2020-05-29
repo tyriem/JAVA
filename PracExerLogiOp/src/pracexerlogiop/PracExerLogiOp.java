@@ -27,7 +27,7 @@ public class PracExerLogiOp {
      */
     public static void main(String[] args) {
 Scanner kb = new Scanner(System.in);
-//ACCEPT USER INPUT OF TEMP
+//ACCEPT USER INPUT OF INTEGERS
           System.out.println("Enter the first number: ");
           //Pull the first user input into the memory buffer
            int numberOne = kb.nextInt();
