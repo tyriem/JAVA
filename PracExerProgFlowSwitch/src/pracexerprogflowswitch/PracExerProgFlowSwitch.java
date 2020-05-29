@@ -36,7 +36,10 @@ Scanner kb = new Scanner(System.in);
           System.out.println("Enter the day (in number form): ");
           //Pull the second user input into the memory buffer
            int day = kb.nextInt();
- /*       
+ /*   
+////////////////////////////////////////////////////////////////////////
+///                         DEPRECATED VERSION                       ///
+///////////////////////////////////////////////////////////////////////
         switch (month)
         {
             case 1:
@@ -111,8 +114,11 @@ Scanner kb = new Scanner(System.in);
                 System.out.println("You have not entered a valid date");
         }
 */
+ 
+//Set the value of month as a switch
  switch (month)
         {
+//Define the logic for the season of WINTER with the December Exception
             case 12:
             case 1:
             case 2:
@@ -123,6 +129,7 @@ Scanner kb = new Scanner(System.in);
                 else
                 System.out.println("WINTER");  
             break;
+//Define the logic for the season of SPRING with the March Exception
             case 3:
             case 4:
             case 5:
@@ -133,6 +140,7 @@ Scanner kb = new Scanner(System.in);
                 else
                 System.out.println("SPRING");  
             break;
+//Define the logic for the season of SUMMER with the June Exception
             case 6:
             case 7:
             case 8:
@@ -143,6 +151,7 @@ Scanner kb = new Scanner(System.in);
                 else
                 System.out.println("SUMMER");  
             break; 
+//Define the logic for the season of AUTUMN with the September Exception
             case 9:
             case 10:
             case 11:
@@ -154,6 +163,7 @@ Scanner kb = new Scanner(System.in);
                 System.out.println("AUTUMN");  
             break; 
             default:
+//Define the logic for the default case if input is not valid
                 System.out.println("You have not entered a valid date");
         }
     }
