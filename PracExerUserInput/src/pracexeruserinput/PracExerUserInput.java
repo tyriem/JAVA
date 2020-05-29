@@ -33,7 +33,7 @@ public class PracExerUserInput {
           //Pull the first user input into the memory buffer
           double numberOne = kb.nextDouble();
           System.out.println("Enter the second number: ");
-          //Pull the first user input into the memory buffer
+          //Pull the second user input into the memory buffer
           double numberTwo = kb.nextDouble();
           double total = (numberOne + numberTwo);
           double product = (numberOne * numberTwo);       
