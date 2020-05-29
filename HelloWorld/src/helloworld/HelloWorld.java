@@ -24,7 +24,9 @@ public class HelloWorld {
       System.out.print ("\nSee You Soon!"); // \n - Carriage Return
       System.out.print ("\tSee You Tomorrow!"); // \t - adds several spaces
       // // - Single-line comment
-      // */ - Multi-line comment
+      /*
+      - Multi-line comment
+      */ 
     }
     
 }
