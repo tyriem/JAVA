@@ -4,6 +4,11 @@
  * [LICENSE INFORMATION]
  */
 
+
+  /*
+OBJECTIVE: Write some code that	prints a diamond shape made of asterisks.
+To make	this more exciting, choose your	own shape and display it on the	screen.
+  */
 package pracexerdisplayoutput;
 
 /**
@@ -29,13 +34,8 @@ public class PracExerDisplayOutput {
      * @param args the command line arguments
      */
 
-    public static void main(String[] args) {
-        
+    public static void main(String[] args) {        
 
-  /*
-OBJECTIVE: Write some code that	prints a diamond shape made of asterisks.
-To make	this more exciting, choose your	own shape and display it on the	screen.
-  */
   while(true)
        {
 //ASCII ANIMATION - FRAME 1
