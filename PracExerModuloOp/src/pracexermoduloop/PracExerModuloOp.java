@@ -19,7 +19,7 @@ import java.util.Scanner;
  *
  * @author T
  * @contributor: TMRM
- * @project: Intro To Java - Modulus Operator: Making Change
+ * @project: Intro To Java - Modulus Operators: Making Change
  * @version: 1.0 
  * @since May 28, 2020
  */
