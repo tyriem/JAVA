@@ -32,10 +32,10 @@ Scanner kb = new Scanner(System.in);
           //Pull the first user input into the memory buffer
            int numberOne = kb.nextInt();
           System.out.println("Enter the second number: ");
-          //Pull the first user input into the memory buffer
+          //Pull the second user input into the memory buffer
            int numberTwo = kb.nextInt();
           System.out.println("Enter the third number: ");
-          //Pull the first user input into the memory buffer
+          //Pull the third user input into the memory buffer
            int numberThree = kb.nextInt();
            
 if (numberOne == numberTwo && numberTwo == numberThree && numberThree == numberOne)
