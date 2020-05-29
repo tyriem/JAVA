@@ -34,13 +34,21 @@ public class PracExerModuloOp {
           System.out.println("Enter the number of cents (between 1 and 100): ");
           //Pull the first user input into the memory buffer
            int cents = kb.nextInt();
+           //Divide the user input by 25 to get the amount of quarters
            int quarters = (cents / 25);
+           //Modulo the user input by 25 to get the remainder to go towards dimes
            int remainder = (cents % 25);
+           //Divide the quarter modulo by 10 to get the amount of dimes
            int dimes = (remainder / 10);
+           //Modulo the quarter modulo by 10 to get the second remainder to go towards nickels
            int remainder2 = (remainder % 10);
+           //Divide the second remainder by 5 to get the amount of nickels
            int nickels = (remainder2 / 5);
+           //Modulo the second remainder by 5 to get the second remainder to go towards nickels
            int remainder3 = (remainder2 % 5);
+           //Divide the third remainder by 1 to get the amount of pennies
            int pennies = (remainder3 / 1);
+           //PRINT THE OUTPUT OF THE ABOVE CALCs
            System.out.println(quarters + " quarters \n" + dimes + " dimes \n" + nickels + " nickels \n" + pennies + " pennies \n");
     }
 
