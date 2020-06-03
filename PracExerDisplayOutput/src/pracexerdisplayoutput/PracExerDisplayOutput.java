@@ -38,6 +38,10 @@ public class PracExerDisplayOutput {
 
   while(true)
        {
+//ANIM VIA GUI IS THE MORE STRAIGHTFORWARD
+           
+//NOTES: while(true) statement is only suitable for if the loop needs to continue until you kill the prog.
+//consider changing the conding to a limited loop
 //ASCII ANIMATION - FRAME 1
        System.out.println("                         *                        ");
        System.out.println("                        ***                       ");

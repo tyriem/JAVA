@@ -27,6 +27,8 @@ public class HelloWorld {
       /*
       - Multi-line comment
       */ 
+      //System is the class (it starts with an Uppercase letter)
+      //out is the method (it starts with a Lowercase letter)
     }
     
 }

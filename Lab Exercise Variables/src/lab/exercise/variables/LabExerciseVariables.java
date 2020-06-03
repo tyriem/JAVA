@@ -22,6 +22,8 @@ public class LabExerciseVariables {
     public static void main(String[] args) {
     ///VARIABLE DECLARATIONS
     //_Variables_
+    
+    /// PRIMITIVE DATA TYPES ///
     //Age Of Person
     int agePerson = 29;
         System.out.println (agePerson);
@@ -34,7 +36,9 @@ public class LabExerciseVariables {
     float apple = 1.44f;
        System.out.print("$");
        System.out.println(apple);
-       
+    
+    ///REFERENCE DATA TYPES///
+        //Strings are REFERENCE DATA TYPES NOT PRIMITIVE DATA TYPES, IT IS SUCH BECAUSE ITS THE REFERENCE TO THE ADDRESS WHERE YOU STORED THE WORD IN MEMORY
     //Color
         String varName;
     //Assign value to varAge_Float

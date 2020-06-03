@@ -31,6 +31,7 @@ public class PracExerModuloOp {
     public static void main(String[] args) {
  Scanner kb = new Scanner(System.in);
 //ACCEPT USER INPUT OF TEMP
+//NOTES: Attempt to Ripple just one remainder variable through code statement
           System.out.println("Enter the number of cents (between 1 and 100): ");
           //Pull the first user input into the memory buffer
            int cents = kb.nextInt();

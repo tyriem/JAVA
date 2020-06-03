@@ -10,8 +10,8 @@ import java.util.Scanner;
  *
  * @author T
  * @contributor: TMRM
- * @project: Intro To Java - 
- * @version: 1.0 
+ * @project: Intro To Java - Methods
+ * @version: 1.1
  * @since Jun 2, 2020
  */
 public class Methods {
