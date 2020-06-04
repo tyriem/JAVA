@@ -30,10 +30,11 @@ public class LabExerDiceRoll {
      */
     public static void main(String[] args) {
         //The generation of a dice roll seems easy at first but because of the mismatch of the index (which starts at 0) and the base of a dice (which starts at 1) it actually takes some thought
+        //Generate a random 
         Random rndDiceOne = new Random();
         Random rndDiceTwo = new Random();
         
-        //Generate a random number and store it in a variable, here we set the bracket as 6 where it limits the value to 0-5 and then add the missing 1 
+        //Make the random output a random number and store it in a variable, here we set the bracket as 6 where it limits the value to 0-5 and then add the missing 1 
         int numberDiceOne = rndDiceOne.nextInt(6)+1;
         int numberDiceTwo = rndDiceTwo.nextInt(6)+1;
         
