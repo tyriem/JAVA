@@ -32,8 +32,8 @@ public class LabExerCoinToss {
         //Generate the random number
         Random rndCoin = new Random();
         
-        //Generate a random number and store it in a variable, here we set the bracket as 1 where it limits the value to 0-1 
-        int numberCoin = rndCoin.nextInt(1);
+        //Generate a random number and store it in a variable, here we set the bracket as 2 where it limits the value to 0-1 
+        int numberCoin = rndCoin.nextInt(2);
         
         //Take the Random Generated Value and Print the output with an IF-ELSE Statement around the outcome
         if (numberCoin == 0)
