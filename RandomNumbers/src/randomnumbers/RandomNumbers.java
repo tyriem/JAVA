@@ -12,7 +12,7 @@
 
 
 package randomnumbers;
-//Before we invoke random numbers with the random class we must import the JAVA Utility Random
+//Before we invoke random numbers with the random class we must import the JAVA Utility Random from the Util Library, if you want to just import the entire library use: java.util.*;
 import java.util.Random;
 /**
  *
