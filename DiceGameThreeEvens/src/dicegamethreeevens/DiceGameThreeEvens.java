@@ -6,7 +6,7 @@
 
 /*
  *[OBJECTIVE]
- * Five Rolls. Roll five six-sided dice. If you roll at least three even numbers you win.
+ * Roll five six-sided dice. If you roll at least three even numbers you win.
  *[OBJECTIVE]
  */
 
@@ -70,11 +70,11 @@ public class DiceGameThreeEvens {
         if (numberDiceTwo % 2 == 0)
             {
             counter = counter + 1;
-            System.out.println("Your first roll was an even!");    
+            System.out.println("Your second roll was an even!");    
             }
         else
            {
-            System.out.println("Your first roll was an odd!");             
+            System.out.println("Your second roll was an odd!");             
            }
         //Modulo the third roll by 2 and evaluate it against zero to check if the roll is even or odd then interate the counter if it is. Then Print if the roll is even or odd.
         if (numberDiceThree % 2 == 0)
@@ -90,21 +90,21 @@ public class DiceGameThreeEvens {
         if (numberDiceFour % 2 == 0)
             {
             counter = counter + 1;
-            System.out.println("Your third roll was an even!");    
+            System.out.println("Your fourth roll was an even!");    
             }
         else
            {
-            System.out.println("Your third roll was an odd!");             
+            System.out.println("Your fourth roll was an odd!");             
            }
         //Modulo the fifth roll by 2 and evaluate it against zero to check if the roll is even or odd then interate the counter if it is. Then Print if the roll is even or odd.
         if (numberDiceFive % 2 == 0)
             {
             counter = counter + 1;
-            System.out.println("Your third roll was an even!");    
+            System.out.println("Your fifth roll was an even!");    
             }
         else
            {
-            System.out.println("Your third roll was an odd!");             
+            System.out.println("Your fifth roll was an odd!");             
            }
         
         //Logic To Evaluate If The User Rolled Enough Evens based on the value of the counter variable
