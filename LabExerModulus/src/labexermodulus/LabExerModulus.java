@@ -12,7 +12,7 @@ package labexermodulus;
  * @contributor: TMRM
  * @project: Intro To Java - lab Exercise Modulus
  * @version: 1.0 
- * @since: XX-XX-2020
+ * @since: 05-19-2020
  */
 public class LabExerModulus {
 
