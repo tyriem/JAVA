@@ -5,7 +5,7 @@
  */
 
  /*
-OBJECTIVE: Write some code that	asks the user	to enter three integer	values	and outputs “EQUAL” if	
+OBJECTIVE: Write some code that	asks the user to enter three integer values and outputs “EQUAL” if	
 all three numbers entered are the same.
   */
 package pracexerlogiop;
@@ -16,7 +16,7 @@ import java.util.Scanner;
  *
  * @author T
  * @contributor: TMRM
- * @project: Intro To Java - 
+ * @project: Intro To Java - Practical Exercise: Integer Evaluation
  * @version: 1.0 
  * @since May 28, 2020
  */
