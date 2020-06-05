@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author T
  * @contributor: TMRM
- * @project: Intro To Java - 
+ * @project: Intro To Java - Switches with Breaks
  * @version: 1.0 
  * @since May 28, 2020
  */
