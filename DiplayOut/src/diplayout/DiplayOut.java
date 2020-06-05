@@ -10,7 +10,7 @@ package diplayout;
  *
  * @author T
  * @contributor: TMRM
- * @project: Intro To Java - DisplayOoutput
+ * @project: Intro To Java - DisplayOutput
  * @version: 1.0
  * @since: 05-13-2020
  */
