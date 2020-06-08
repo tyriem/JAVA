@@ -29,6 +29,7 @@ public class DiceGameThreeEvens {
      */
     public static void main(String[] args) {
         //The generation of a dice roll seems easy at first but because of the mismatch of the index (which starts at 0) and the base of a dice (which starts at 1) it actually takes some thought
+        
         //Generate five randoms 
         Random rndDiceOne = new Random();
         Random rndDiceTwo = new Random();
