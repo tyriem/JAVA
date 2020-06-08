@@ -56,7 +56,7 @@ public class DiceGameThreeEvens {
         System.out.println("Dice Five was a: " + numberDiceFive);
         
         //Logic To Track If Each Roll is an Even
-        //Modulo the first roll by 2 and evaluate it against zero to check if the roll is even or odd then iterate the counter if it is. Then Print if the roll is even or odd.
+        //Modulo the first roll by 2 and evaluate it against zero to check if the roll is even or odd then iterate the counter if it is even. Then Print if the roll is even or odd.
         if (numberDiceOne % 2 == 0)
         {
             counter = counter + 1;
@@ -66,7 +66,7 @@ public class DiceGameThreeEvens {
            {
             System.out.println("Your first roll was an odd!");             
            }
-        //Modulo the second roll by 2 and evaluate it against zero to check if the roll is even or odd then iterate the counter if it is. Then Print if the roll is even or odd.
+        //Modulo the second roll by 2 and evaluate it against zero to check if the roll is even or odd then iterate the counter if it is even. Then Print if the roll is even or odd.
         if (numberDiceTwo % 2 == 0)
             {
             counter = counter + 1;
@@ -76,7 +76,7 @@ public class DiceGameThreeEvens {
            {
             System.out.println("Your second roll was an odd!");             
            }
-        //Modulo the third roll by 2 and evaluate it against zero to check if the roll is even or odd then iterate the counter if it is. Then Print if the roll is even or odd.
+        //Modulo the third roll by 2 and evaluate it against zero to check if the roll is even or odd then iterate the counter if it is even. Then Print if the roll is even or odd.
         if (numberDiceThree % 2 == 0)
             {
             counter = counter + 1;
@@ -86,7 +86,7 @@ public class DiceGameThreeEvens {
            {
             System.out.println("Your third roll was an odd!");             
            }
-        //Modulo the fourth roll by 2 and evaluate it against zero to check if the roll is even or odd then iterate the counter if it is. Then Print if the roll is even or odd.
+        //Modulo the fourth roll by 2 and evaluate it against zero to check if the roll is even or odd then iterate the counter if it is even. Then Print if the roll is even or odd.
         if (numberDiceFour % 2 == 0)
             {
             counter = counter + 1;
@@ -96,7 +96,7 @@ public class DiceGameThreeEvens {
            {
             System.out.println("Your fourth roll was an odd!");             
            }
-        //Modulo the fifth roll by 2 and evaluate it against zero to check if the roll is even or odd then iterate the counter if it is. Then Print if the roll is even or odd.
+        //Modulo the fifth roll by 2 and evaluate it against zero to check if the roll is even or odd then iterate the counter if it is even. Then Print if the roll is even or odd.
         if (numberDiceFive % 2 == 0)
             {
             counter = counter + 1;
