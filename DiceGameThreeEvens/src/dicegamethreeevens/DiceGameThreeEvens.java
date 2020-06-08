@@ -55,7 +55,7 @@ public class DiceGameThreeEvens {
         System.out.println("Dice Four was a: " + numberDiceFour);
         System.out.println("Dice Five was a: " + numberDiceFive);
         
-        //Logic To Track If Each Rolls is an Even
+        //Logic To Track If Each Roll is an Even
         //Modulo the first roll by 2 and evaluate it against zero to check if the roll is even or odd then interate the counter if it is. Then Print if the roll is even or odd.
         if (numberDiceOne % 2 == 0)
         {
