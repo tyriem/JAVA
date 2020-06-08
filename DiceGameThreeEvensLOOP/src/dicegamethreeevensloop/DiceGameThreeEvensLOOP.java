@@ -20,7 +20,7 @@ import java.util.Random;
  * @author T
  * @contributor: TMRM
  * @project: Intro To Java - RANDOM & LOOPs: Dice Game Three Evens LOOP VERSION
- * @version: 1.0 
+ * @version: 2.0 
  * @since Jun 8, 2020
  */
 public class DiceGameThreeEvensLOOP {
