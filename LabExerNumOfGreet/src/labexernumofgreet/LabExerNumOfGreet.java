@@ -51,6 +51,7 @@ public class LabExerNumOfGreet {
         System.out.println("--------------------------------------------------------");        
         //THIS IS THE HEADER FOR OUR FOR LOOP
         //NB: Steps in a FOR Loop: Initialize; Test; Update and after the initialization it loops through TEST & UPDATE
+//For Loop Logic to print user greeting until user limit is reached 
         for(counterGreet = 1; counterGreet <= limitGreet; counterGreet++)
            {
            System.out.println(greet);
