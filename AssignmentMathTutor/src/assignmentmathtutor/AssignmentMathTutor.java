@@ -94,7 +94,7 @@ public class AssignmentMathTutor {
                      numEquals = (numY - numX);
                     }          
            }
-        // Logic for SUM
+        // Logic for Sum of X & Y
         else 
             {  
             System.out.println("You Selected Addition for Today's Challenge.");
