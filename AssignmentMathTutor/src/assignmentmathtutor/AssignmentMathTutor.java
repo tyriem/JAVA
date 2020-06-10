@@ -36,9 +36,9 @@ public class AssignmentMathTutor {
 ///              NESTED IF STATEMENTS               ///
 //////////////////////////////////////////////////////
 
-
-//Accept User Input: Name
+//Initialize Scanner
        Scanner kb = new Scanner(System.in);
+//Accept User Input: Name
        System.out.println("Please Enter Your Name: ");
        String name = kb.nextLine();
        
