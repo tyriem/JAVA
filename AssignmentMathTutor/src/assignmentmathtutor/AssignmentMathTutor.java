@@ -83,14 +83,14 @@ public class AssignmentMathTutor {
                 if (numX >= numY)
                      {
                      System.out.println("You Selected Subtraction for Today's Challenge.");    
-                     System.out.println("Today's Challenge Question is: What is the difference between: " + numX + " and " + numY);    
+                     System.out.println("Today's Challenge Question is: What is the difference between: " + numX + " and " + numY + " ?");    
                      numEquals = (numX - numY);
                      }
         // Logic for Difference where Y > X
                 else
                     {
                     System.out.println("You Selected Subtraction for Today's Challenge.");
-                    System.out.println("Today's Challenge Question is: What is the difference between: " + numY + " and " + numX);
+                    System.out.println("Today's Challenge Question is: What is the difference between: " + numY + " and " + numX + " ?");
                      numEquals = (numY - numX);
                     }          
            }
@@ -98,7 +98,7 @@ public class AssignmentMathTutor {
         else 
             {  
             System.out.println("You Selected Addition for Today's Challenge.");
-            System.out.println("Today's Challenge Question is: What is the sum of: " + numX + " and " + numY);    
+            System.out.println("Today's Challenge Question is: What is the sum of: " + numX + " and " + numY + " ?");    
             numEquals = (numX + numY);
             }
 //Accept User Input: Outcome Guess  
