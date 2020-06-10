@@ -56,8 +56,8 @@ public class LabExerNumOfGreet {
            {
            System.out.println(greet);
            } 
-         //When you exit a loop the command after runs
-         System.out.println("END");
+         //NB: When you exit a loop the command after runs
+         System.out.println("--------------------------------------------------------");
     }
 
 }
