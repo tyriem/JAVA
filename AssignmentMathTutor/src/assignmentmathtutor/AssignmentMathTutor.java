@@ -30,8 +30,9 @@ public class AssignmentMathTutor {
      */
     public static void main(String[] args) {
 ///////////////////////////////////////////////////////
-///               MATH TUTOR PROGRAM                ///
+///               [MATH TUTOR PROGRAM]              ///
 ///CONDITIONAL EVALUATION OF USER INPUT OF OPERATION///
+///                  RANDOM NUMBERS                 ///
 ///              NESTED IF STATEMENTS               ///
 //////////////////////////////////////////////////////
 
@@ -45,7 +46,7 @@ public class AssignmentMathTutor {
        //SPACER
        System.out.println("--------------------------------------------------------");
        System.out.println("Good Day, " + name + ". Welcome To Your Math Tutor Program.");
-       System.out.println("Please Select The Operation Type: (Addition OR Subtraction)");
+       System.out.println("Please Select The Operation Type: (A)ddition OR (S)ubtraction)");
 ///CONVERT THE USER INPUT INTO PREDICTED TEXT 'S'
        //Accept The Raw User Input
        String rawOperation = kb.nextLine();
@@ -106,12 +107,12 @@ public class AssignmentMathTutor {
          //Correct Guess
                  if (numGuess == numEquals)
                      {
-                     System.out.println("Correct, " + name + " well done!");    
+                     System.out.println("Correct " + name + ", well done!");    
                      }
         //Incorrect Guess
                  else
                     { 
-                    System.out.println("Sorry, " + name + " your guess was incorrect. The answer was: " + numEquals);
+                    System.out.println("Sorry " + name + ", your guess was incorrect. The answer was: " + numEquals);
                     }               
            
     }
