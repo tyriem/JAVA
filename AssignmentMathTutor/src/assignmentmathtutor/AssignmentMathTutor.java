@@ -62,8 +62,8 @@ public class AssignmentMathTutor {
 
 //GENERATE THE VARIABLES AND RANDOM NUMBERS
         //Call random and attach it to rndNum
-        Random rndNum = new Random();
         //WE ONLY NEED TO CREATE THE HOLDER FOR RANDOM ONCE as we are using the cointainer again and again
+        Random rndNum = new Random();
         //Initialize the primary variables
         int numX;
         int numY;
