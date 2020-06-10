@@ -30,11 +30,11 @@ public class Userinfo {
    System.out.println("Please Enter Your Age:");
    //Pull the user input into the memory buffer
    int age = kb.nextInt();
-   //Serialize the memory buffer contents
+   //Iterate the memory buffer contents
    int nextAge = (age + 1);
    //Print the buffer contents
     System.out.println("You are " + age + " years old"); 
-   //print the serialized buffer contents
+   //Print the iterated buffer contents
     System.out.println("You will be " + nextAge + " years old this time next year");    
     }
 
