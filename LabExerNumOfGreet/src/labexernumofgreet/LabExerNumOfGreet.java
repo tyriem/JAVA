@@ -50,7 +50,7 @@ public class LabExerNumOfGreet {
         //SPACER
         System.out.println("--------------------------------------------------------");        
         //THIS IS THE HEADER FOR OUR FOR LOOP
-        //Steps in a FOR Loop: Initialize; Test; Update and after the initialization it loops through TEST & UPDATE
+        //NB: Steps in a FOR Loop: Initialize; Test; Update and after the initialization it loops through TEST & UPDATE
         for(counterGreet = 1; counterGreet <= limitGreet; counterGreet++)
            {
            System.out.println(greet);
