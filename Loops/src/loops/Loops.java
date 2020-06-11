@@ -6,7 +6,7 @@
 
 /*
  *[OBJECTIVE]
- * TODO INSERT OBJECTIVE HERE
+ * INTRODUCE THE LOGIC OF LOOPS (FOR, WHILE, DO-WHILE)
  *[OBJECTIVE]
  */
 
@@ -181,7 +181,7 @@ public class Loops {
 
 ////////////////////////////////////////////////////////////////////////////////
 
-//Accept User Input: Age
+//Accept User Input: Number Age
        System.out.println("Please Enter a number between 13 - 19(INCLUSIVE): ");
        int doAge = kb.nextInt();
 //Initialize the DO-WHILE Loop To REJECT input outside of 13-19
