@@ -13,6 +13,8 @@
 
 package loops;
 
+import java.util.Scanner;
+
 /**
  *
  * @author T
@@ -28,9 +30,9 @@ public class Loops {
      */
     public static void main(String[] args) {
         // Loops or Iteration is used when we need to reuse the same code again and again. It is a code structure that causes a statement or group of statements to repeat.
-        //Condition Controlled Loop / WHILE Loop - Loop that continues until a condition is met
-        //FOR Loop - A count controlled loop, where the loop continues until a variable counter hits a set value
-        //DO WHILE Loop -
+        
+///FOR LOOP - A count controlled loop, where the loop continues until a variable counter hits a set value
+
         
         //////////////////////
         /// FOR LOOP LOGIC ///
@@ -90,12 +92,106 @@ public class Loops {
            } 
          //When you exit a loop the command after runs
          System.out.println("END"); 
-         
+
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
         //////////////////////
         ///WHILE LOOP LOGIC///
-        /////////////////////     
+        /////////////////////    
+        
+///WHILE LOOP - A condition controlled loop, a loop that continues until a condition is met / until it is false     
+
+        //while (x<y), will loop and perform the contents until something in the code makes the statement false
+        //A WHILE Loop is useful for INPUT VALIDATION cases such as when we want the user to try again, if don't know the number of times you want something to be done a WHILE Loop is handy
+        
+        int alpha = 1;
+//NB. DO NOT PUT A SEMICOLON IN THE WHILE LOOP DECLARATION
+        while (alpha <= 10)
+             {
+                 System.out.println(alpha);
+//NB. YOU |NEED| TO UPDATE A WHILE LOOP IN THE LOOP OR IT WILL LOOP FOREVER
+                 alpha++;
+             }
+        System.out.println("END"); 
+        
+////////////////////////////////////////////////////////////////////////////////
+ 
+// OBJECTIVE: ASK THE USER FOR A NUMBER BETWEEN 13-19 (INCLUSIVE), if they do not let them try again with a WHILE Loop
+//Initialize Scanner
+       Scanner kb = new Scanner(System.in);
+
+//Accept User Input: Age
+       System.out.println("Please Enter a number between 13 - 19(INCLUSIVE): ");
+       int age = kb.nextInt();
+//Initialize the WHILE Loop To REJECT input outside of 13-19
+        while ((age < 13) || (age > 19))
+             {
+                   System.out.println("Try Again...");  
+                   System.out.println("Please Enter a number between 13 - 19(INCLUSIVE): ");
+//NB. We |HAVE| To give the user a way out of the Loop so here we accept their input again 
+                   age = kb.nextInt();
+             }
+        System.out.println("You Have Entered The Age: " + age);
+
+////////////////////////////////////////////////////////////////////////////////
+//Accept User Input: Gender
+       System.out.println("Please Enter Your Gender: ");
+       String gender = kb.nextLine();
+//Initialize the WHILE Loop To REJECT input outside of M or F
+        while ((gender != "M") || (gender != "F") || (gender != "Attack Helicopter"))
+             {
+                   System.out.println("Try Again...");  
+                   System.out.println("Please Enter Your Gender: ");
+//NB. We |HAVE| To give the user a way out of the Loop so here we accept their input again 
+                   gender = kb.nextLine();
+             }
+        System.out.println("You Have Entered The Gender: " + gender);
         
         
+////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////
+
+        //////////////////////////
+        ///DO WHILE LOOP LOGIC///
+        ////////////////////////     
+
+///DO-WHILE LOOP - A post-test loop, a loop that continues until a condition is met / until it is false that is guaranteed to run at least once.    
+        
+///THERE IS ONLY ONE DIFFERENCE BETWEEN A WHILE AND A DO-WHILE LOOP
+//A WHILE LOOP is good if you want the option for the code in the loop to never run
+//A DO-WHILE LOOP always runs the inside of the loop |at least once|
+
+
+/* WHILE LOOP VERSION
+   int xray = 1;
+   while (xray < 0)
+        {
+        System.out.println(xray);
+        }
+ */
+
+//DO-WHILE LOOP VERSION
+
+   int yankee = 1;
+   do
+     {
+     System.out.println(yankee);
+     } while (yankee < 0);
+
+////////////////////////////////////////////////////////////////////////////////
+
+//Accept User Input: Age
+       System.out.println("Please Enter a number between 13 - 19(INCLUSIVE): ");
+       int doAge = kb.nextInt();
+//Initialize the DO-WHILE Loop To REJECT input outside of 13-19
+       do
+         {
+         System.out.println("Please Enter a number between 13 - 19(INCLUSIVE): ");
+         doAge = kb.nextInt();
+         } while ((doAge < 13) || (doAge > 19));
+
+        System.out.println("You Have Entered The Age: " + doAge);
     }
 
 }
