@@ -26,9 +26,9 @@ public class ShortCurcuitEval {
         int b = 3;
         //AS THE FIRST OPERATION IS ALREADY FALSE THE REST OF THE OPERATION CAN BE SKIPPED AS IT DOESN'T MATTER WHAT THE SECOND ONE YIELDS
     if (a > 8 && b < 7)
-       {
+    {
     System.out.println("YOUR EXPRESSION IS FALSE! ");
-       }
+    }
     else
     {
       System.out.println("YOUR EXPRESSION IS TRUE! "); 
@@ -38,9 +38,9 @@ public class ShortCurcuitEval {
         int d = 3;
         //AS THE FIRST OPERATION IS ALREADY TRUE THE REST OF THE OPERATION CAN BE SKIPPED AS IT DOESN'T MATTER WHAT THE SECOND ONE YIELDS
     if (c > 8 || d < 7)
-       {
+    {
     System.out.println("YOUR EXPRESSION IS FALSE! ");
-       }
+    }
     else
     {
       System.out.println("YOUR EXPRESSION IS TRUE! "); 

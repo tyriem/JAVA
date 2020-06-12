@@ -21,7 +21,7 @@ import java.util.Random;
  * @author T
  * @contributor: TMRM
  * @project: Intro To Java - Lab Exercise: For Loops - Toss & Evaluate 5 Coins
- * @version: 1.0 
+ * @version: 1.1 
  * @since Jun 10, 2020
  */
 public class LabExerCoinTossEval {
@@ -43,27 +43,30 @@ public class LabExerCoinTossEval {
 //Logic To Flip Coin 5X and Evaluate Outcomes
         //For Loop To Flip Coin
         for (int counterCoin = 1; counterCoin <=5; counterCoin++)
-            {
+        {
             int coin = rnd.nextInt(2);
         //Logic To Eval Heads    
             if (coin==0)
-               {
+            {
                 heads++;
                 System.out.println("The Coin Landed on Heads");
-               }
+            }
         //Logic To Eval Tails 
             else
-               {
+            {
                 tails++;
                 System.out.println("The Coin Landed on Tails");
-               }
-            total += coin;
             }
+
+        }
 //SPACER
         System.out.println("--------------------------");
 //Print the total of each flip type
+        total = (heads + tails);
+        System.out.println("The Coin was flipped: " + (total) + " times.");
         System.out.println("Amount of Heads: " + heads);
         System.out.println("Amount of Tails: " + tails);
+//WE CAN ADD UP THE TOTAL OUTSIDE OF THE LOOP FOR MORE EFFICIENT EXEC
     }
 
 }

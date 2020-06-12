@@ -42,24 +42,25 @@ If a member reads 4 or more books, they earn 60 points.
           int point;
           //Calculate how many points
           if (book == 0)
-             {
+          {
               point = 0;
-             }
+          }
           else if (book == 1)
-             {
+          {
               point = 5;
-             }
+          }
           else if (book == 2)
-             {
+          {
               point = 15;
-             }
+          }
           else if (book == 3)
-             {
+          {
               point = 30;
-             }
+          }
           else
               point = 60;
 */
+
 //YOU COULD DO IT WITH A SWITCH, A SWITCH IS A SUPERIOR / MORE ELEGANT CHOICE WHEN YOU HAVE A DEFINED VALUE THAT GOES UP OR DOWN
 //IF YOU SEE THAT YOU ARE WRITING AN IF ELSE IF ELSE STATEMENT WHERE THE ELSE IF is using == consistently
         System.out.println("Enter the amount of books you read this month: ");
@@ -84,7 +85,7 @@ If a member reads 4 or more books, they earn 60 points.
                   break;
               default:
                   point = 60;
-         }             
+          }             
 //PRINT NUMBER OF POINTS
 System.out.println("You got " + point + " points.");
 

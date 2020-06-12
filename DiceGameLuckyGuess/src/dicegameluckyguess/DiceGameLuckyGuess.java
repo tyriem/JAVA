@@ -51,24 +51,25 @@ public class DiceGameLuckyGuess {
         //Check the user's guess against the roll
         //Evaluate too low a guess
         if (diceGuess < numberDice)
-           {
+        {
            System.out.println("Sorry, Your Guess Was Too Low.");  
-           }   
+        }   
         //Evaluate a correct guess
         else if (diceGuess == numberDice)
-           {
+        {
            System.out.println("You Win.");  
-           }    
+        }    
         //Evaluate too high a guess
         else if (diceGuess > numberDice)
-           {
+        {
            System.out.println("Sorry, Your Guess Was Too High.");  
-           }   
+        }   
         //Evaluate an invalid guess
         else
         {
            System.out.println("Your input was invalid, please try again.");   
         }
+        
     }
 
 }

@@ -36,7 +36,7 @@ public class LabExerInput {
    //Pull the user input into the memory buffer
    String col = kb.nextLine();
    //Print the buffer contents
-    System.out.println("You like " + col + " " + anim + "s"); 
+   System.out.println("You like " + col + " " + anim + "s"); 
     }
 
 }

@@ -40,17 +40,17 @@ public class LabExerIfMean {
            //EVALUATE THE INPUT GRADE & PRINT THE RESPONSE
 
            if (total < 60)
-              {
+           {
               System.out.println("You Failed...");
-              }
+           }
            else if (total <= 80 && total >= 60 )
-              {
+           {
               System.out.println("Well Done!");
-              }
+           }
            else if (total <= 100 && total > 80 )
-              {
+           {
               System.out.println("Great Job!");
-              }
+           }
            else
               System.out.println("INVALID SCORE");  
     }

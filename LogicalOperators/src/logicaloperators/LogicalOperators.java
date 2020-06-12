@@ -25,9 +25,9 @@ public class LogicalOperators {
         int temp = 2;
         int time = 3;
     if (temp < 5 && time < 6)
-       {
+    {
     System.out.println("YOUR FRIDGE IS FINE! ");
-       }
+    }
     else
     {
       System.out.println("SOMETHING IS WRONG WITH YOUR FRIDGE! "); 
@@ -39,13 +39,13 @@ public class LogicalOperators {
         int speed = 2;
         int rev = 3;
     if (speed < 100 || rev < 100)
-       {
+    {
     System.out.println("YOUR CAR IS FINE! ");
-       }
+    }
     else
-       {
+    {
       System.out.println("YOUR CAR IS STRESSED! "); 
-       }
+    }
  
          // !(NOT) - Logical operator that evaluates a boolean value
         // ! works to check if a boolean value is not true

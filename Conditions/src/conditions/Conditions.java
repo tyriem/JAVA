@@ -68,30 +68,39 @@ public class Conditions {
 ///CONVERT THE USER INPUT INTO PREDICTED TEXT 'M'
        //Accept The Raw User Input
        String rawGender = kb.nextLine();
-       //Strip the first character of their input
-       char genderChar = rawGender.charAt(0);
+       //Force the Case of the input to UpperCase. Strip the first character of their input and put it in a char
+       char genderChar = rawGender.toUpperCase().charAt(0);
+      /* 
+       [DEPRACTED 06-12-20]
        //Convert the character to a String (This is optional as you could process the char but that would alter the later code)
        String genderProc = Character.toString(genderChar);  
        //Convert the String To UpperCase
        String gender = genderProc.toUpperCase();
+       [DEPRACTED 06-12-20]
+      */
        //Print the prompt for the user age
        System.out.println("Please Enter Your Age:");
 ///NESTED IF STATEMENT TO DETERMINE GENDER AND AGE 
        //Place the input into an int
        int ageDrinkIn = kb.nextInt();
        if (ageDrinkIn >= 18)
-          {
+       {
+       /* 
+       [DEPRACTED 06-12-20]
        //WHEN COMPARING STRINGS USE THE .EQUALS INSTEAD OF == AS == CHECKS TO SEE IF OBJs ARE |EXACTLY| THE SAME NOT IF THEY HAVE THE SAME STRING CONTENTS
        //WE USE THE .EQUALS TO EVLAUATE THE CONTENTS OF THE GENDER BUFFER CORRECTLY
        //https://stackoverflow.com/questions/658953/if-statement-with-string-comparison-fails
-                if (gender.equals("M"))
-                     {          
+                if (gender.equals("M")
+       [DEPRACTED 06-12-20]
+       */
+                if (genderChar =='M')
+                {          
                      System.out.println("HAVE A BEER");
-                     }
+                }
                 else
                      System.out.println("HAVE A GLASS OF WINE");  
 
-          }
+        }
        else 
                System.out.println("YOU ARE TOO YOUNG TO BE SERVED HERE");
                }

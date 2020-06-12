@@ -59,24 +59,24 @@ public class MidtermBMI {
 
        //If statement for BMI underweight
        if (bmi < 18.5)
-          {
+       {
           System.out.println("Your current BMI as calculated indicates that you are underweight, " + name + "."); 
-          }
+       }
        //Else If statement for BMI optimal weight
        else if (bmi >= 18.5 && bmi <= 25)
-          {
+       {
           System.out.println("Your current BMI as calculated indicates that you are at optimal weight, " + name + "."); 
-          }
+       }
        //Else If statement for BMI overweight       
        else if (bmi > 25)
-          {
+       {
           System.out.println("Your current BMI as calculated indicates that you are overweight, " + name + "."); 
-          }
+       }
        //Else statement for invalid input
        else
-          {
+       {
           System.out.println("One or more of your inputs was invalid, please try again, " + name + "."); 
-          }           
+       }           
        
       
     }

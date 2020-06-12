@@ -7,8 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="Constants" default="default" basedir=".">
-    <description>Builds, tests, and runs the project Constants.</description>
+<project name="05-14-20_-_CONSTANTS" default="default" basedir=".">
+    <description>Builds, tests, and runs the project 05-14-20 - CONSTANTS.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 
@@ -58,7 +58,7 @@
 
     An example of overriding the target for project execution could look like this:
 
-        <target name="run" depends="Constants-impl.jar">
+        <target name="run" depends="05-14-20_-_CONSTANTS-impl.jar">
             <exec dir="bin" executable="launcher.exe">
                 <arg file="${dist.jar}"/>
             </exec>

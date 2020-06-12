@@ -77,7 +77,7 @@ public class AssignmentMathTutor {
        System.out.println("--------------------------------------------------------");
        //NB: WHEN COMPARING STRINGS USE THE .EQUALS INSTEAD OF == AS == CHECKS TO SEE IF OBJs ARE |EXACTLY| THE SAME NOT IF THEY HAVE THE SAME STRING CONTENTS
        if (operation.equals("S"))
-          {
+       {
 
        // Logic for Difference where X >= Y
                 if (numX >= numY)
@@ -93,27 +93,27 @@ public class AssignmentMathTutor {
                     System.out.println("Today's Challenge Question is: What is the difference between: " + numY + " and " + numX + " ?");
                      numEquals = (numY - numX);
                     }          
-           }
+        }
         // Logic for Sum of X & Y
         else 
-            {  
+        {  
             System.out.println("You Selected Addition for Today's Challenge.");
             System.out.println("Today's Challenge Question is: What is the sum of: " + numX + " and " + numY + " ?");    
             numEquals = (numX + numY);
-            }
+        }
 //Accept User Input: Outcome Guess  
       int numGuess = kb.nextInt();   
 //Logic For Evaluating User's Guess
          //Correct Guess
                  if (numGuess == numEquals)
-                     {
+                 {
                      System.out.println("Correct " + name + ", well done!");    
-                     }
+                 }
         //Incorrect Guess
                  else
-                    { 
+                 { 
                     System.out.println("Sorry " + name + ", your guess was incorrect. The answer was: " + numEquals);
-                    }               
+                 }               
            
     }
 

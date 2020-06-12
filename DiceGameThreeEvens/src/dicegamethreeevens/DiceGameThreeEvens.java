@@ -69,55 +69,55 @@ public class DiceGameThreeEvens {
            }
         //Modulo the second roll by 2 and evaluate it against zero to check if the roll is even or odd then iterate the counter if it is even. Then Print if the roll is even or odd.
         if (numberDiceTwo % 2 == 0)
-            {
+        {
             counter = counter + 1;
             System.out.println("Your second roll was an even!");    
-            }
+        }
         else
-           {
+        {
             System.out.println("Your second roll was an odd!");             
-           }
+        }
         //Modulo the third roll by 2 and evaluate it against zero to check if the roll is even or odd then iterate the counter if it is even. Then Print if the roll is even or odd.
         if (numberDiceThree % 2 == 0)
-            {
+        {
             counter = counter + 1;
             System.out.println("Your third roll was an even!");    
-            }
+        }
         else
-           {
+        {
             System.out.println("Your third roll was an odd!");             
-           }
+        }
         //Modulo the fourth roll by 2 and evaluate it against zero to check if the roll is even or odd then iterate the counter if it is even. Then Print if the roll is even or odd.
         if (numberDiceFour % 2 == 0)
-            {
+        {
             counter = counter + 1;
             System.out.println("Your fourth roll was an even!");    
-            }
+        }
         else
-           {
+        {
             System.out.println("Your fourth roll was an odd!");             
-           }
+        }
         //Modulo the fifth roll by 2 and evaluate it against zero to check if the roll is even or odd then iterate the counter if it is even. Then Print if the roll is even or odd.
         if (numberDiceFive % 2 == 0)
-            {
+        {
             counter = counter + 1;
             System.out.println("Your fifth roll was an even!");    
-            }
+        }
         else
-           {
+        {
             System.out.println("Your fifth roll was an odd!");             
-           }
+        }
         
         //Logic To Evaluate If The User Rolled Enough Evens based on the value of the counter variable
         System.out.println("-------------------------------------");         
         if (counter >= 3)
-            {
+        {
             System.out.println("Congratulations! You Rolled Mostly Evens!");    
-            }
+        }
         else
-           {
+        {
             System.out.println("Sorry, You Didn't Roll Enough Evens...");             
-           }
+        }
         
     }
 

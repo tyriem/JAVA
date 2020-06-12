@@ -37,7 +37,7 @@ public class DiceGameThreeEvensLOOP {
          
         //FOR-LOOP TRACKING THE NUMBER OF ROLLS
         for(int counter = 0; counter < 5; counter++)
-            {
+        {
             //Generate a random number and store it in a variable, here we set the bracket as 2 where it limits the value to 0-1 
             numberDice = rndDice.nextInt(6)+1;
                     
@@ -45,26 +45,26 @@ public class DiceGameThreeEvensLOOP {
             //Logic To Track If Each Roll is an Even
             //Modulo the rolls by 2 and evaluate it against zero to check if the roll is even or odd then iterate the counter if it is even. Then Print if the roll is even or odd.
             if (numberDice % 2 == 0)
-               {
+            {
                counterEvens++;
                System.out.println("You rolled a: " + numberDice + ". An even roll!");    
-               }
-            else
-               {
-               System.out.println("You rolled a: " + numberDice + ". An odd roll!");             
-               }
             }
+            else
+            {
+               System.out.println("You rolled a: " + numberDice + ". An odd roll!");             
+            }
+        }
 
         //Logic To Evaluate If The User Rolled Enough Evens based on the value of the counter variable
         System.out.println("-------------------------------------");         
         if (counterEvens >= 3)
-            {
+        {
             System.out.println("Congratulations! You Rolled Mostly Evens!");    
-            }
+        }
         else
-           {
+        {
             System.out.println("Sorry, You Didn't Roll Enough Evens...");             
-           }
+        }
                 
     }
 

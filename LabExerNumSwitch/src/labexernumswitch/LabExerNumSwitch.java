@@ -29,11 +29,11 @@ Scanner kb = new Scanner(System.in);
 //ACCEPT USER INPUT OF MONTH & DAY
           System.out.println("Enter a number between one and five (inclusive): ");
           //Pull the first user input into the memory buffer
-           int number = kb.nextInt();
-           //Set the value of number as a switch
-           switch (number)
-        {
-           //Define the switch number's behaviour
+          int number = kb.nextInt();
+          //Set the value of number as a switch
+          switch (number)
+          {
+          //Define the switch number's behaviour
                   case 1:
                   System.out.println("one");
                   break;
@@ -51,7 +51,7 @@ Scanner kb = new Scanner(System.in);
                   break;
               default:
                 System.out.println("You have not entered a valid number");
-        }
+          }
            
     }
 

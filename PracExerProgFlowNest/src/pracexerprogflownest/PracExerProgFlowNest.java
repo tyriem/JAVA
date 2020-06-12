@@ -35,27 +35,28 @@ Scanner kb = new Scanner(System.in);
 //Tier 1 Open
 //Tier 1 Eval - Speed VS 55           
 if (speed > 55)
-   {
+{
 //Tier 1 Output - TOO FAST
    System.out.println("TOO FAST!");   
-   }
+}
 //Tier 2 Open
 else
-   {
+{
 //Tier 2 Eval - Speed VS 40
    if (speed < 40)
-      {
+   {
 //Tier 2 Output - Speed VS 40
       System.out.println("TOO SLOW!");      
-      }
+   }
 //Tier 2 Output - You're OK
    else
-      {
+   {
        System.out.println("YOU'RE OKAY!"); 
 //Tier 2 Close
-      }
-//Tier 1 Close
    }
+//Tier 1 Close
+}
+
     }
 
 }

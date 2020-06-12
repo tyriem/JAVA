@@ -34,14 +34,14 @@ Print an error message if the value entered does not meet the required criteria.
           //Pull the user input into the memory buffer
           int number = kb.nextInt();
           //Evaluate the User Input Across the Given Range
-           if (number >= 13 && number <= 19)
-              {
-           //PRINT THE SUCCESS STATE MSG
+          if (number >= 13 && number <= 19)
+          {
+              //PRINT THE SUCCESS STATE MSG
               System.out.println("YOU HAVE SUCCESFULLY ENTERED A VALUE BETWEEN 13 AND 19 (Inclusive)");
-              }
-           //FAILURE STATE
-           else
-           //PRINT THE FAILURE STATE MSG
+          }
+          //FAILURE STATE
+          else
+              //PRINT THE FAILURE STATE MSG
               System.out.println("!!!ERROR 1: VALUE DOES NOT MEET CRITERIA!!!");  
     }
 

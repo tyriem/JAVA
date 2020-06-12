@@ -73,10 +73,10 @@ public class Loops {
         //NB: We can declare and initialize the control variable inside the loop
         //IF WE WANT TO ADD IN INCREMENTS MORE THAN ONE WE USE += and THE AMOUNT WE WANT TO ADD EACH INCREMENT
         for(int counterDouble = 2; counterDouble <= 10; counterDouble+=2)
-           {
+        {
           //NB: We can use the control variable inside the body of the loop
                System.out.println(counterDouble);
-           } 
+        } 
          //When you exit a loop the command after runs
          System.out.println("END");  
 
@@ -86,12 +86,12 @@ public class Loops {
         //Steps in a FOR Loop: Initialize; Test; Update and after the initialization it loops through TEST & UPDATE
         //NB: We can declare and initialize the control variable inside the loop
         for(int counterReduce = 10; counterReduce >= 0; counterReduce-=2)
-           {
+        {
           //NB: We can use the control variable inside the body of the loop
                System.out.println(counterReduce);
-           } 
-         //When you exit a loop the command after runs
-         System.out.println("END"); 
+        } 
+        //When you exit a loop the command after runs
+        System.out.println("END"); 
 
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
@@ -108,11 +108,11 @@ public class Loops {
         int alpha = 1;
 //NB. DO NOT PUT A SEMICOLON IN THE WHILE LOOP DECLARATION
         while (alpha <= 10)
-             {
+        {
                  System.out.println(alpha);
 //NB. YOU |NEED| TO UPDATE A WHILE LOOP IN THE LOOP OR IT WILL LOOP FOREVER
                  alpha++;
-             }
+        }
         System.out.println("END"); 
         
 ////////////////////////////////////////////////////////////////////////////////
@@ -126,12 +126,12 @@ public class Loops {
        int age = kb.nextInt();
 //Initialize the WHILE Loop To REJECT input outside of 13-19
         while ((age < 13) || (age > 19))
-             {
+        {
                    System.out.println("Try Again...");  
                    System.out.println("Please Enter a number between 13 - 19(INCLUSIVE): ");
 //NB. We |HAVE| To give the user a way out of the Loop so here we accept their input again 
                    age = kb.nextInt();
-             }
+        }
         System.out.println("You Have Entered The Age: " + age);
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -140,12 +140,12 @@ public class Loops {
        String gender = kb.nextLine();
 //Initialize the WHILE Loop To REJECT input outside of M or F
         while ((gender != "M") || (gender != "F") || (gender != "Attack Helicopter"))
-             {
+        {
                    System.out.println("Try Again...");  
                    System.out.println("Please Enter Your Gender: ");
 //NB. We |HAVE| To give the user a way out of the Loop so here we accept their input again 
                    gender = kb.nextLine();
-             }
+        }
         System.out.println("You Have Entered The Gender: " + gender);
         
         
@@ -166,9 +166,9 @@ public class Loops {
 /* WHILE LOOP VERSION
    int xray = 1;
    while (xray < 0)
-        {
-        System.out.println(xray);
-        }
+    {
+    System.out.println(xray);
+    }
  */
 
 //DO-WHILE LOOP VERSION
