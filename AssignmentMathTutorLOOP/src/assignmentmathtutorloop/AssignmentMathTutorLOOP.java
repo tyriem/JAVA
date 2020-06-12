@@ -20,7 +20,7 @@ import java.util.Scanner;
 /**
  *
  * @author T
- * @contributor: TMRM @ SUIKA
+ * @contributor: TMRM & SUIKA
  * @project: Intro To Java - Assignment: Random /Loops - Math Tutor
  * @version: 2.1 
  * @since Jun 12, 2020
