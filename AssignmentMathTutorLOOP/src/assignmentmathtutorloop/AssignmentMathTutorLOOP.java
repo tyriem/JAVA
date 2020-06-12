@@ -75,15 +75,12 @@ public class AssignmentMathTutorLOOP {
 /* 
 [DEPRECATED 06-11-2020]
        System.out.println("Please Select The Operation Type: (A)ddition OR (S)ubtraction)");
-///CONVERT THE USER INPUT INTO PREDICTED TEXT 'S'
+///CONVERT THE USER INPUT INTO PREDICTED TEXT 'S'         
        //Accept The Raw User Input
        String rawOperation = kb.nextLine();
-       //Strip the first character of their input
-       char operationChar = rawOperation.charAt(0);
-       //Convert the character to a String (This is optional as you could process the char but that would alter the later code)
-       String operationProc = Character.toString(operationChar);  
-       //Convert the String To UpperCase
-       Strinng operation = operationProc.toUpperCase();
+       //Force the Case of the input to UpperCase. Strip the first character of their input and put it in a char
+       char operation = rawOperation.toUpperCase().charAt(0);
+
 [DEPRECATED 06-11-2020]
 */       
 
@@ -105,6 +102,12 @@ public class AssignmentMathTutorLOOP {
        //SPACER
        System.out.println("--------------------------------------------------------");
        //NB: WHEN COMPARING STRINGS USE THE .EQUALS INSTEAD OF == AS == CHECKS TO SEE IF OBJs ARE |EXACTLY| THE SAME NOT IF THEY HAVE THE SAME STRING CONTENTS
+     /* 
+[DEPRECATED 06-11-2020]
+       if (operation == 'S')
+[DEPRECATED 06-11-2020]
+*/      
+       
        if (operation.equals("S"))
           {
 
