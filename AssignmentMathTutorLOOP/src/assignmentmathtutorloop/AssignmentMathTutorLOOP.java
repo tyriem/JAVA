@@ -6,7 +6,8 @@
 
 /*
  *[OBJECTIVE]
- * TODO INSERT OBJECTIVE HERE
+ * Your task is to create a simple Maths Tutor program. User picks Addition or Subtraction. program chooses two random numbers (between 1 and 10 inclusive) and displays a problem for the user to solve.
+ * The user can then enter the answer to the problem. If correct: program must display a nice msg. If incorrect: Program must tell them and display the correct answer. For subtraction the smaller number must always be subtracted from the larger.
  *[OBJECTIVE]
  */
 
@@ -20,7 +21,7 @@ import java.util.Scanner;
  *
  * @author T
  * @contributor: TMRM
- * @project: Intro To Java - 
+ * @project: Intro To Java - Assignment: Random /Loops - Math Tutor
  * @version: 1.0 
  * @since Jun 12, 2020
  */
@@ -37,6 +38,7 @@ public class AssignmentMathTutorLOOP {
 ///CONDITIONAL EVALUATION OF USER INPUT OF OPERATION///
 ///                  RANDOM NUMBERS                 ///
 ///              NESTED IF STATEMENTS               ///
+///                      LOOPS                      ///
 //////////////////////////////////////////////////////
 
 //Initialize Scanner
@@ -63,16 +65,14 @@ public class AssignmentMathTutorLOOP {
         //Init the Correct Answer Counter       
         int counterCorrect = 0;
         
-        //Init the Strings & Chars
-        String rawOperation = "";
-        char operationChar = ' ';
-        String operationProc = "";
-        String operation = "";
-        
+
 //Open the correct answer while loop
         while (counterCorrect < 10)
              {  
-               
+                
+                 
+/* 
+[DEPRECATED 06-11-2020]
        System.out.println("Please Select The Operation Type: (A)ddition OR (S)ubtraction)");
 ///CONVERT THE USER INPUT INTO PREDICTED TEXT 'S'
        //Accept The Raw User Input
@@ -83,10 +83,17 @@ public class AssignmentMathTutorLOOP {
        operationProc = Character.toString(operationChar);  
        //Convert the String To UpperCase
        operation = operationProc.toUpperCase();
-       
+[DEPRECATED 06-11-2020]
+*/       
 
-     
-
+        System.out.println("Please Select The Operation Type: (A)ddition OR (S)ubtraction)");
+///CONVERT THE USER INPUT INTO PREDICTED TEXT 'S'
+       //Accept The Raw User Input
+       String rawOperation = kb.nextLine();
+       //Pull the first character of the raw input and place it in a new string
+       String operationProc = rawOperation.substring(0, 1);
+       //Convert the String To UpperCase
+       String operation = operationProc.toUpperCase();
 
         //Generate the random variables and constrain them to the given limits (1 - 10 inc.)
         numX = rndNum.nextInt(10)+1;
