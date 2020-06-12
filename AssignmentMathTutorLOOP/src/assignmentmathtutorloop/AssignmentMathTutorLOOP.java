@@ -8,6 +8,7 @@
  *[OBJECTIVE]
  * Your task is to create a simple Maths Tutor program. User picks Addition or Subtraction. program chooses two random numbers (between 1 and 10 inclusive) and displays a problem for the user to solve.
  * The user can then enter the answer to the problem. If correct: program must display a nice msg. If incorrect: Program must tell them and display the correct answer. For subtraction the smaller number must always be subtracted from the larger.
+ * Use a WHILE Loop to have the user answer until they get ten guesses correct.
  *[OBJECTIVE]
  */
 
@@ -136,14 +137,14 @@ public class AssignmentMathTutorLOOP {
       
       
 //Logic For Evaluating User's Guess
-         //Correct Guess
+         //Correct Guess Logic
                  if (numGuess == numEquals)
                      {
                      System.out.println("Correct " + name + ", well done!");
          //Iterate correct answer counter
                      counterCorrect++;
                      }
-        //Incorrect Guess
+        //Incorrect Guess Logic
                  else
                     { 
                     System.out.println("Sorry " + name + ", your guess was incorrect. The answer was: " + numEquals);
