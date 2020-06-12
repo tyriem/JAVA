@@ -151,7 +151,7 @@ public class AssignmentMathTutorLOOP {
 //Close the correct answer while loop                 
 System.out.println("You have answered " + counterCorrect + " challenge question correctly.");  
              }
-        System.out.println("You Have Answered Ten Challenge Questions Correctly. Congratulations."); 
+        System.out.println("Great job " + name + " on getting ten questions right. Congratulations, and have a good day!"); 
         
         
     }
