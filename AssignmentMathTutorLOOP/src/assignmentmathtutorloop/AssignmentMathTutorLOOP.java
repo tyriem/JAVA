@@ -129,7 +129,12 @@ public class AssignmentMathTutorLOOP {
             numEquals = (numX + numY);
             }
 //Accept User Input: Outcome Guess  
-      int numGuess = kb.nextInt();   
+      int numGuess = kb.nextInt();
+      
+//!!! THIS IS ONLY HERE TO CLEAR OUT THE SCANNER FOR THE NEXT RUN OF THE LOOP !!!     
+      kb.nextLine();
+      
+      
 //Logic For Evaluating User's Guess
          //Correct Guess
                  if (numGuess == numEquals)
