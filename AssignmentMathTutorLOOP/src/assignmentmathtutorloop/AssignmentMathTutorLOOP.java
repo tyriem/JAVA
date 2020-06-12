@@ -77,13 +77,13 @@ public class AssignmentMathTutorLOOP {
        System.out.println("Please Select The Operation Type: (A)ddition OR (S)ubtraction)");
 ///CONVERT THE USER INPUT INTO PREDICTED TEXT 'S'
        //Accept The Raw User Input
-       rawOperation = kb.nextLine();
+       String rawOperation = kb.nextLine();
        //Strip the first character of their input
-       operationChar = rawOperation.charAt(0);
+       char operationChar = rawOperation.charAt(0);
        //Convert the character to a String (This is optional as you could process the char but that would alter the later code)
-       operationProc = Character.toString(operationChar);  
+       String operationProc = Character.toString(operationChar);  
        //Convert the String To UpperCase
-       operation = operationProc.toUpperCase();
+       Strinng operation = operationProc.toUpperCase();
 [DEPRECATED 06-11-2020]
 */       
 
@@ -133,8 +133,9 @@ public class AssignmentMathTutorLOOP {
 //Accept User Input: Outcome Guess  
         int numGuess = kb.nextInt();
       
-//!!! THIS IS ONLY HERE TO CLEAR OUT THE SCANNER FOR THE NEXT RUN OF THE LOOP !!!     
-        kb.nextLine();
+//!!! THIS IS ONLY HERE TO CLEAR OUT THE SCANNER FOR THE NEXT RUN OF THE LOOP !!! 
+// WE DO THIS AS THE CARRIAGE RETURN IS LEFT IN THE BUFFER WHICH GENERATES AN ERROR ON READING IT
+       kb.nextLine();
       
       
 //Logic For Evaluating User's Guess
