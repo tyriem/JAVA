@@ -252,8 +252,13 @@ public class AssignmentMathTutorSWITCH {
                          
           
 //Accept User Input: Outcome Guess  
-        double numGuess = kb.nextDouble();
-      
+        
+while(!kb.hasNextDouble()) {
+    System.out.println("Invalid Input. Try Again.");
+    kb.nextLine();
+}
+double numGuess = kb.nextDouble();      
+        
 //!!! THIS IS ONLY HERE TO CLEAR OUT THE SCANNER FOR THE NEXT RUN OF THE LOOP !!! 
 // WE DO THIS AS THE CARRIAGE RETURN IS LEFT IN THE BUFFER WHICH GENERATES AN ERROR ON READING IT
         kb.nextLine();
