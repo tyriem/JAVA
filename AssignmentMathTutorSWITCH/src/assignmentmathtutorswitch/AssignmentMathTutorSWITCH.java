@@ -225,8 +225,8 @@ public class AssignmentMathTutorSWITCH {
 *[DEPRECATED 06-15-20 | REDUNDANT LOGIC]
 */ 
           
-              System.out.println("You Selected " + selectOperator + " for Today's Challenge.");
-              System.out.println("Today's Challenge Question is: What is the " + selectOperation + " of: " + numX + selectConnect + numY + " ?");             
+              System.out.println("You Selected " + selectOperation + " for Today's Challenge.");
+              System.out.println("Today's Challenge Question is: What is the " + selectOperator + " of: " + numX + selectConnect + numY + " ?");             
           
 //Accept User Input: Outcome Guess  
         double numGuess = kb.nextDouble();
