@@ -21,7 +21,7 @@ import java.util.Scanner;
 /**
  *
  * @author T
- * @contributor: TMRM
+ * @contributor: TMRM & SUIKA
  * @project: Intro To Java - Assignment: Random / Switch - Math Tutor
  * @version: 3.0 
  * @since Jun 15, 2020
