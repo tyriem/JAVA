@@ -81,13 +81,18 @@ public class AssignmentMathTutorSWITCH {
 
 //Accept User Input: Operation
         System.out.println("Please Select The Operation Type: (A)ddition, (S)ubtraction), (M)ultiplication, (D)ivision, (E)xponents");
+                       
 ///CONVERT THE USER INPUT INTO PREDICTED TEXT 'S'
        //Accept The Raw User Input
        String rawOperation = kb.nextLine();
-       //Pull the first character of the raw input and place it in a new string
-       String operationProc = rawOperation.substring(0, 1);
        //Convert the String To UpperCase
-       String operation = operationProc.toUpperCase();
+       String operation = rawOperation.toUpperCase();
+/*
+ *[DEPRECATED 06-16-20 | SUPERFLUOUS] 
+       //Pull the first character of the raw input and place it in a new string
+       String operationProc = rawOperation.substring(0, 1);     
+ *[DEPRECATED 06-16-20 | SUPERFLUOUS] 
+ */
 
         //Generate the random variables and constrain them to the given limits (1 - 10 inc.)
         numX = rndNum.nextInt(10)+1;
@@ -101,6 +106,8 @@ public class AssignmentMathTutorSWITCH {
           switch (operation)
           {
               case "A":
+              case "(A)":    
+              case "ADDITION":
               selectOperation = "addition";
               selectOperator = "sum";
               selectConnect = " plus "; 
@@ -109,6 +116,8 @@ public class AssignmentMathTutorSWITCH {
               break;
                   
               case "S":
+              case "(S)":    
+              case "SUBTRACTION":
               selectOperation = "subtraction";
               selectOperator = "difference";
               selectConnect = " minus "; 
@@ -123,7 +132,9 @@ public class AssignmentMathTutorSWITCH {
                   break;
                   
                                     
-               case "M":
+              case "M":
+              case "(M)":    
+              case "MULTIPLICATION":
                selectOperation = "multiplication";
                selectOperator = "product";
                selectConnect = " times "; 
@@ -131,7 +142,9 @@ public class AssignmentMathTutorSWITCH {
                   break;
 
                   
-               case "D":
+              case "D":
+              case "(D)":    
+              case "DIVISION":
                selectOperation = "division";
                selectOperator = "quotient";
                selectConnect = " divided by "; 
@@ -145,7 +158,9 @@ public class AssignmentMathTutorSWITCH {
                   }    
                   break;
                   
-                case "E":
+              case "E":
+              case "(E)":    
+              case "EXPONENTIAL":
                 selectOperation = "exponent";
                 selectOperator = "exponential";
                 selectConnect = " to the power of "; 
@@ -221,12 +236,20 @@ public class AssignmentMathTutorSWITCH {
               //Return to the start of the loop
               continue;
            }            
- 
 *[DEPRECATED 06-15-20 | REDUNDANT LOGIC]
 */ 
-          
+ 
+//IF STATEMENT TO PROMPT USER WITH CHALLENGE QUESTION
               System.out.println("You Selected " + selectOperation + " for Today's Challenge.");
-              System.out.println("Today's Challenge Question is: What is the " + selectOperator + " of: " + numX + selectConnect + numY + " ?");             
+              if (numX >= numY)
+              {
+                 System.out.println("Today's Challenge Question is: What is the " + selectOperator + " of: " + numX + selectConnect + numY + " ?");  
+              }   
+              else
+              {
+                 System.out.println("Today's Challenge Question is: What is the " + selectOperator + " of: " + numY + selectConnect + numX + " ?");
+              }    
+                         
           
 //Accept User Input: Outcome Guess  
         double numGuess = kb.nextDouble();
