@@ -259,7 +259,7 @@ while(!kb.hasNextDouble()) {
 }
 double numGuess = kb.nextDouble();      
         
-//!!! THIS IS ONLY HERE TO CLEAR OUT THE SCANNER FOR THE NEXT RUN OF THE LOOP !!! 
+//!!! THIS IS HERE TO CLEAR OUT THE SCANNER FOR THE NEXT RUN OF THE LOOP !!! 
 // WE DO THIS AS THE CARRIAGE RETURN IS LEFT IN THE BUFFER WHICH GENERATES AN ERROR ON READING IT
         kb.nextLine();
       
