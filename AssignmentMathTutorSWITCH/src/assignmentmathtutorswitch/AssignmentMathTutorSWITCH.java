@@ -252,7 +252,7 @@ public class AssignmentMathTutorSWITCH {
                          
           
 //Accept User Input: Outcome Guess  
-        
+//THIS WHILE LOOP VALIDATES THE USER INPUT TO ENSURE THAT THEY ENTERED A SUITABLE ANSWER     
 while(!kb.hasNextDouble()) {
     System.out.println("Invalid Input. Try Again.");
     kb.nextLine();
