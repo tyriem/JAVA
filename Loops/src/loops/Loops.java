@@ -45,7 +45,7 @@ public class Loops {
         
         //THIS IS THE HEADER FOR OUR FOR LOOP
         //Steps in a FOR Loop: Initialize; Test; Update and after the initialization it loops through TEST & UPDATE
-        for(counterHello = 0; counterHello < 6; counterHello++)
+        for(counterHello = 1; counterHello < 6; counterHello++)
            {
            System.out.println("Hello");
            } 
@@ -148,7 +148,38 @@ public class Loops {
         }
         System.out.println("You Have Entered The Gender: " + gender);
         
+ 
+        //////////////////////
+        ///WHILE LOOP LOGIC///
+        ///    SENTINEL    ///
+        /////////////////////   
         
+        
+        //Program to add up a series of positive numbers entered by the user
+        //but we don't know how many
+        
+        int numberValue, total=0;
+        
+        System.out.println("Please enter the first number (or -1 to end): ");
+        numberValue = kb.nextInt();
+        total += numberValue;
+        
+        //BE SURE TO: Tell the user what to enter when they finish with their numbers
+        //The sentinel value can be any value as long as its outside of the range
+                
+        while (numberValue != -1)
+        {
+            System.out.println("Please enter another number (or -1 to end): ");
+            numberValue = kb.nextInt();
+            total += numberValue;
+                    
+        }
+        //Fix the -1 that shouldn't be in the total
+        total ++;
+        
+        System.out.println("The total is: " + total);
+        
+
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -192,6 +223,40 @@ public class Loops {
          } while ((doAge < 13) || (doAge > 19));
 
         System.out.println("You Have Entered The Age: " + doAge);
+
+////////////////////////////////////////////////////////////////////////////////
+        
+        /////////////////////////
+        ///DO-WHILE LOOP LOGIC///
+        ///     SENTINEL      ///
+        ////////////////////////   
+        
+        
+        //Program to add up a series of positive numbers entered by the user
+        //but we don't know how many
+        
+        int numberValueDo, totalDo=0;
+        
+        System.out.println("Please enter the first number (or -1 to end): ");
+        numberValueDo = kb.nextInt();
+        totalDo += numberValueDo;
+        
+        //BE SURE TO: Tell the user what to enter when they finish with their numbers
+        //The sentinel value can be any value as long as its outside of the range
+                
+        while (numberValueDo != -1)
+        {
+            System.out.println("Please enter another number (or -1 to end): ");
+            numberValueDo = kb.nextInt();
+            total += numberValueDo;
+                    
+        }
+        //Fix the -1 that shouldn't be in the total
+        totalDo ++;
+        
+        System.out.println("The total is: " + totalDo);
+        
+        
     }
 
 }
