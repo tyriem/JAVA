@@ -7,7 +7,8 @@
 /*
  *[OBJECTIVE]
  * Your task is to create a simple Maths Tutor program. User picks an operation, program chooses two random numbers (between 1 and 10 inclusive) and displays a problem for the user to solve.
- * The user can then enter the answer to the problem. If correct: program must display a nice msg. If incorrect: Program must tell them and display the correct answer. For subtraction the smaller number must always be subtracted from the larger.
+ * The user can then enter the answer to the problem. If correct: program must display a nice msg. If incorrect: Program must tell them and display the correct answer. 
+ * For operations such as subtraction the smaller number must always be subtracted from the larger.
  * Use a WHILE Loop AND SWITCH to have the user answer until they get ten guesses correct.
  *[OBJECTIVE]
  */
@@ -279,7 +280,7 @@ double numGuess = kb.nextDouble();
                     }          
           
         //Close the correct answer while loop                 
-        System.out.println("You have answered " + counterCorrect + " challenge question correctly.");  
+        System.out.println("You have answered " + counterCorrect + " challenge question(s) correctly.");  
              }
         //END
         System.out.println("Great job " + name + " on getting ten questions right. Congratulations, and have a good day!");   
