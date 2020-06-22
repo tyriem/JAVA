@@ -19,7 +19,7 @@ import java.util.Scanner;
  *
  * @author T
  * @contributor: TMRM
- * @project: Intro To Java - 
+ * @project: Intro To Java - Arrays
  * @version: 1.0 
  * @since Jun 15, 2020
  */
@@ -150,6 +150,7 @@ public class Arrays {
                {
                System.out.println(x);
                } 
+
 
     }
 
