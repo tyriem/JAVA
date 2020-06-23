@@ -65,7 +65,7 @@ public class ArraysLoops {
            
            for (int indexUser = 0; indexUser < ARRAY_SIZE_USR; indexUser++)
            {
-               //Ask the user for the value into the array element 
+               //Ask the user for the value to put into the array element 
                System.out.println("Enter Numbers For The Array: ");
                numUser[indexUser] = kb.nextInt();
            }
@@ -79,7 +79,24 @@ public class ArraysLoops {
            
 ////////////////////////////////////////////////////////////////////////////////
 //Task: Create an array and populate it with user input. Print the array backwards.
-
+           //Declare VARs
+           final int ARRAY_SIZE_BCKWRDS = 6;
+           
+           //Create an array of integers
+           int[] numBack = new int[ARRAY_SIZE_BCKWRDS];
+           
+           for (int indexBack = ARRAY_SIZE_BCKWRDS; indexBack > 0; indexBack--)
+           {
+               //Ask the user for the value to put into the array element 
+               System.out.println("Enter Numbers For The Array: ");
+               numBack[indexBack] = kb.nextInt();
+           }
+           
+           //Print the values in the array using enhanced FOR-LOOP
+           for (int numReverse : numBack)
+           {
+               System.out.println(numReverse);
+           }
 
 ////////////////////////////////////////////////////////////////////////////////
 //Task: Create an array and populate it with user input. Add the numbers in the array and print the sum.
@@ -108,8 +125,25 @@ public class ArraysLoops {
            System.out.println("The sum of the elements in the array is: " + totalSum);
 ////////////////////////////////////////////////////////////////////////////////
 //Task: Create arrays for people's names, ages and their favorite color. Print the arrays as one.
-          final int ARRAY_SIZE_CLR = 3;
-          
+        //Declare VARs
+        final int ARRAY_SIZE_PERSONAL = 4;
+        //Define the String Array for names
+        String[] name = {"Peter", "Andre", "Chadee", "Tyrie"};
+        //Define the integer Array for ages
+        int[] age = {39, 37, 34, 29};
+        //Define the String Array for colors
+        String[] color = {"Red", "Black", "Blue", "Green"};
+        
+        
+        for (int indexPersonal = 0 ; indexPersonal < ARRAY_SIZE_PERSONAL ; indexPersonal++)
+        { 
+        //Print out the value in the array element   
+           System.out.print(name[indexPersonal] + " ");
+           System.out.print(age[indexPersonal] + " ");
+           System.out.println(color[indexPersonal] + " ");
+           
+        }
+        
           
 ////////////////////////////////////////////////////////////////////////////////
 //Task: Create arrays . Write code that looks through the array and prints the running total.
