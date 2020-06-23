@@ -29,7 +29,7 @@ public class LabExerMethodDoubleIt {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-               //TASK: METHOD TO DOUBLE A NUMBER
+        //TASK: METHOD TO DOUBLE A NUMBER
         int number = 3;
         System.out.println("Number is " + number);
         //WHEN PASSING THE VALUE WE STORE IT IN A VAR HERE
