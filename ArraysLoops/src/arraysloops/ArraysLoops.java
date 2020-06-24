@@ -6,7 +6,7 @@
 
 /*
  *[OBJECTIVE]
- * TODO INSERT OBJECTIVE HERE
+ * Constructing Arrays With Loops
  *[OBJECTIVE]
  */
 
@@ -31,7 +31,7 @@ public class ArraysLoops {
        //Initialize Scanner
        Scanner kb = new Scanner(System.in);        
 ////////////////////////////////////////////////////////////////////////////////
-//Task: Create an array and populate it with random numbers. Print the array.
+//Task #1: Create an array and populate it with random numbers. Print the array.
         final int ARRAY_SIZE = 6;
         int[] numRand = new int[ARRAY_SIZE];
         Random rndNum = new Random();
@@ -56,7 +56,7 @@ public class ArraysLoops {
 
 
 ////////////////////////////////////////////////////////////////////////////////
-//Task: Create an array and populate it with user input. Print the array.
+//Task #2: Create an array and populate it with user input. Print the array.
            //Declare VARs
            final int ARRAY_SIZE_USR = 6;
            
@@ -78,18 +78,45 @@ public class ArraysLoops {
            
            
 ////////////////////////////////////////////////////////////////////////////////
-//Task: Create an array and populate it with user input. Print the array backwards.
+//Task #3: Create an array and populate it with user input. Print the array backwards.
+
            //Declare VARs
            final int ARRAY_SIZE_BCKWRDS = 6;
            
            //Create an array of integers
            int[] numBack = new int[ARRAY_SIZE_BCKWRDS];
            
-           for (int indexBack = ARRAY_SIZE_BCKWRDS; indexBack > 0; indexBack--)
+           //NB: WE USE THE - 1 TO PUT OURSELVES IN THE INDEX RANGE
+           for (int indexBck = 0; indexBck < ARRAY_SIZE_BCKWRDS; indexBck++)
            {
                //Ask the user for the value to put into the array element 
                System.out.println("Enter Numbers For The Array: ");
-               numBack[indexBack] = kb.nextInt();
+               numBack[indexBck] = kb.nextInt();
+           }
+           
+           //Print the values in the array using enhanced FOR-LOOP
+           //NB: THE ENHANCED LOOP IS NOT USEFUL IN THIS CASE AS IT GOES INHERENTLY FORWARD
+           for (int indexBck = ARRAY_SIZE_BCKWRDS - 1; indexBck > 0; indexBck--)
+           {
+               //Ask the user for the value to put into the array element 
+               System.out.println("Enter Numbers For The Array: ");
+               numBack[indexBck] = kb.nextInt();
+           }
+          
+////////////////////////////////////////////////////////////////////////////////
+//Task #4: Create an array and populate it with user input backwards. Print the array.
+           //Declare VARs
+           final int ARRAY_SIZE_BCK = 6;
+           
+           //Create an array of integers
+           int[] numBck = new int[ARRAY_SIZE_BCK];
+           
+           //NB: WE USE THE - 1 TO PUT OURSELVES IN THE INDEX RANGE
+           for (int indexBck = ARRAY_SIZE_BCK - 1; indexBck > 0; indexBck--)
+           {
+               //Ask the user for the value to put into the array element 
+               System.out.println("Enter Numbers For The Array: ");
+               numBack[indexBck] = kb.nextInt();
            }
            
            //Print the values in the array using enhanced FOR-LOOP
@@ -99,7 +126,7 @@ public class ArraysLoops {
            }
 
 ////////////////////////////////////////////////////////////////////////////////
-//Task: Create an array and populate it with user input. Add the numbers in the array and print the sum.
+//Task #5: Create an array and populate it with user input. Add the numbers in the array and print the sum.
            //Declare VARs
            final int ARRAY_SIZE_USR_SUM = 6;
            
@@ -124,7 +151,7 @@ public class ArraysLoops {
            //Print the sum of the Array
            System.out.println("The sum of the elements in the array is: " + totalSum);
 ////////////////////////////////////////////////////////////////////////////////
-//Task: Create arrays for people's names, ages and their favorite color. Print the arrays as one.
+//Task #6: Create arrays for people's names, ages and their favorite color. Print the arrays as one.
         //Declare VARs
         final int ARRAY_SIZE_PERSONAL = 4;
         //Define the String Array for names
@@ -146,21 +173,23 @@ public class ArraysLoops {
         
           
 ////////////////////////////////////////////////////////////////////////////////
-//Task: Create arrays . Write code that looks through the array and prints the running total.
+//Task #7: Create an array. Write code that looks through the array and prints the running total.
           int[] sumArray = {1, 2, 3, 4,5,6,7,8,9,10};
           int total = 0;
           //Getting the total of the numbers in an array
           for (int indexSum=0; indexSum < sumArray.length; indexSum++)
           {
             total += sumArray[indexSum];  
+          //Print Running Total
+          System.out.println("The running total is " + total);
           }     
-          //Print Total
-          System.out.println("The total is " + total);
+          //Print Final Total
+          System.out.println("The final total is " + total);
           
           
 ////////////////////////////////////////////////////////////////////////////////
-//Task: Create array and find the largest value in the array. Print the largest.
-          int[] largestArray = {1, 2, 3, 4,5,6,7,8,9,10};
+//Task #8: Create array and find the largest value in the array. Print the largest.
+          int[] largestArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
           
 
           //When finding the smallest or largest we make an assumption to start where we set it at the first position of the index (0 in this case)
@@ -173,28 +202,29 @@ public class ArraysLoops {
                 largestSoFar = largestArray[indexLargest];
             }    
           }     
-          //Print Largest Numner
+          //Print Largest Number
           System.out.println("The largest number is " + largestSoFar);   
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
-//Task: Create array and find the smallest value in the array. Print the largest.
+//Task #9: Create array and find the smallest value in the array. Print the largest.
           int[] smallestArray = {1, 2, 3, 4,5,6,7,8,9,10};
           
 
           //When finding the smallest or largest we make an assumption to start where we set it at the first position of the index (0 in this case)
           int smallestSoFar = smallestArray[0];
           //Getting the total of the numbers in an array
-          for (int indexSmall=0; indexSmall > smallestArray.length; indexSmall++)
+          for (int indexSmall=0; indexSmall < smallestArray.length; indexSmall++)
           {
-            if (smallestArray[indexSmall] > smallestSoFar)
+            if (smallestArray[indexSmall] < smallestSoFar)
             {
                 smallestSoFar = smallestArray[indexSmall];
             }    
           }     
-          //Print Largest Numner
+          //Print Largest Number
           System.out.println("The smallest number is " + smallestSoFar);   
 ////////////////////////////////////////////////////////////////////////////////
-//Task: Create array and bubble sort it. Print the sorted array.
+//Task # ∞: Create array and bubble sort it. Print the sorted array.
+//END OF COURSE
     }
 
 }
