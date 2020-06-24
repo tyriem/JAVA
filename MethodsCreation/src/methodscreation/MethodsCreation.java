@@ -40,6 +40,7 @@ public class MethodsCreation {
     //NB: If you call a method lower in the heirarchy in the middle of another method then it calls that lower one in the middle of the other
     //NB: If an method is expecting something we "pass an argument" to it. To do this we put what we expect in the parenthesis
     //NB: Any variable you create within a method is only alive in the scope of that method, even if it has the name of a var in anotherm method (even main)
+    //NB: If a Method has proper documentation comments then when you call it, your IDE will give you appropriate documentation for that method including what it returns
     //public - any part of our code can call this | static - lives on its own | void - not return anything back
     //even if you do not put any arg inside you still need the soft brackets
     public static void brushTeeth()
