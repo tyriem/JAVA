@@ -9,6 +9,11 @@
  * First you must display the game title (in a unique and appealing way).
  * Then ask the user to enter their name, and allow them to make their choice.
  * You must tell the user to enter the value 0, 1 or 2 (0 = Rock; 1 = Paper; 2 = Scissors).
+ * The computer must randomly choose 0, 1 or 2 (0 = Rock; 1 = Paper; 2 = Scissors).
+ * Your program must display each choice in words (user and computer) as well as the winner.
+ * For full marks, your program must ask the user if they wish to play again (and allow the user
+ * to play the game as many times as they wish). The user should not have to enter their name
+ * each time they choose to play again.
  *[OBJECTIVE]
  */
 
