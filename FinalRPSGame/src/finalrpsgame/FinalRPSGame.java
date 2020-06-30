@@ -180,7 +180,7 @@ public class FinalRPSGame {
 
     }
     
-    /**METHOD TO TAKE IN USER NAME ENTRY
+    /** METHOD TO TAKE IN USER NAME ENTRY
      * 
      * @return name
      */
