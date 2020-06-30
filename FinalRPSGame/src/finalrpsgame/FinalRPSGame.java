@@ -35,6 +35,7 @@ public class FinalRPSGame {
      */
     public static void main(String[] args) {
         //PRINT Game Logo ASCII Art
+        //TODO method for print logo
         System.out.println(".$$$$$$ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $$$$$$.\n" +
                            "$$$$$$$ $$$'  '$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$'  '$$$ $$$$$$$\n" +
                            "$$$$$$$ $$$s__s$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$s__s$$$ $$$$$$$\n" +
@@ -79,6 +80,7 @@ public class FinalRPSGame {
         Scanner kb = new Scanner (System.in);
         
         //Prompt user for name
+        //TODO method for name entry to reuse in other programs
         System.out.println("");
         System.out.println("Please Enter Your Name: ");
         String name = kb.nextLine();
@@ -230,6 +232,8 @@ public class FinalRPSGame {
      * @param 
      * @return 
      
+    //Study: Global VARs, passing ref instead of value in a method
+    //TODO LATER passing the array and don't return the array
     //IF WE WANT TO PASS A VALUE BACK WE SPECIFY THE VALUE TO RETURN INSTEAD OF VOID
     public static int playEvalMETHOD(int x[])
     {
