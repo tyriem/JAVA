@@ -148,14 +148,14 @@ public class FinalRPSGame {
                 System.out.println("You Lose!");   
                 numOfLosses++;
             }
-            //PLAYER: SCISSORS | COMP: ROCK EVAL
-            else if(playerHand == 2 && compHand == 0)
+            //PLAYER: SCISSORS | COMP: PAPER EVAL
+            else if(playerHand == 2 && compHand == 1)
             {
                 System.out.println("You Win!");   
                 numOfWins++;
             }
-            //PLAYER: PAPER | COMP: PAPER EVAL
-            else if(playerHand == 2 && compHand == 1)
+            //PLAYER: SCISSORS | COMP: ROCK EVAL
+            else if(playerHand == 2 && compHand == 0)
             {
                 System.out.println("You Lose!");   
                 numOfLosses++;
