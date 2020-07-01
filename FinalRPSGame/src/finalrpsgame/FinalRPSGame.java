@@ -13,7 +13,9 @@
  * Your program must display each choice in words (user and computer) as well as the winner.
  * For full marks, your program must ask the user if they wish to play again (and allow the user
  * to play the game as many times as they wish). The user should not have to enter their name
- * each time they choose to play again.
+ * each time they choose to play again. 
+ * ADDITIONAL: Add a performance evaluation against the opponent
+ * ADDITIONAL: Force User Name Input to ProperCase
  *[OBJECTIVE]
  */
 
@@ -35,15 +37,17 @@ public class FinalRPSGame {
      */
     public static void main(String[] args) {
         //PRINT Game Logo ASCII Art
-        showLogo();
+        showLogoMETHOD();
        
 
         //Init Scanner
         Scanner kb = new Scanner (System.in);
         
-        //Prompt user for name       
+        //Prompt user for name  
+        //Aaccept user name
         //WHEN PASSING THE VALUE WE STORE IT IN A VAR HERE
-        String name = nameEntry();
+        String rawName = nameEntryMETHOD();
+        String name = toProperCaseMETHOD(rawName);
        
         //PRINT USER WELCOME
         System.out.println("[Welcome " + name + " to Rock, Paper, Scissors]");
@@ -59,6 +63,7 @@ public class FinalRPSGame {
         int numOfWins = 0;
         int numOfLosses = 0;
         
+        //[OPEN WHILE LOOP]
         while(playAgain == 'Y')
         {
             //Make the random output a random number and store it in a variable, here we set the bracket as 3 where it limits the value to 0-2
@@ -129,8 +134,10 @@ public class FinalRPSGame {
             playAgain = kb.next().toUpperCase().charAt(0);
         }
         
-        //ENDGAME LOGIC
+        //[ENDGAME LOGIC]
+        //Print Statement to thank player
         System.out.println("Thanks For Playing.");
+        //Print Statement to tally performance
         System.out.println("You won " + numOfWins + " time(s) and lost " + numOfLosses + " time(s).");
         
         //Performance Evaluation
@@ -155,7 +162,7 @@ public class FinalRPSGame {
     /** METHOD TO PRINT GAME LOGO
      * 
      */
-    public static void showLogo()
+    public static void showLogoMETHOD()
     {
         System.out.println(".$$$$$$ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $$$$$$.\n" +
                            "$$$$$$$ $$$'  '$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$'  '$$$ $$$$$$$\n" +
@@ -198,24 +205,41 @@ public class FinalRPSGame {
 
     }
     
-    /** METHOD TO TAKE IN USER NAME ENTRY
+    /** 
+     * METHOD TO TAKE IN USER NAME ENTRY AND STORE AS rawName
      * 
-     * @return name
+     * @return rawName
      */
-    public static String nameEntry()
+    public static String nameEntryMETHOD()
     {
         Scanner nameKB = new Scanner (System.in);
         System.out.println("");
         System.out.println("Please Enter Your Name: ");
-        String name = nameKB.nextLine();
-        return name;
+        String rawName = nameKB.nextLine();
+        return rawName;
     }
-    
+   
+    /**
+     * METHOD TO Convert String to Proper Case
+     * @param x
+     * @return firstLetter + restOfTheName (name)
+     */
+    public static String toProperCaseMETHOD(String x)
+    {
+        if (x.length() == 0)
+            return "";
+        else
+        {
+            char firstLetter = x.toUpperCase().charAt(0);
+            String restOfTheName = x.substring(1).toLowerCase();
+            return (firstLetter + restOfTheName);
+        }
+    }
     
     /** METHOD TO CONVERT INT INTO NAME OF HAND PLAYED
      * 
-     * @param x
-     * @return handName
+     * @param x (playerHand, compHand)
+     * @return handName String
      */
     public static String handNameMETHOD(int x)
     {
@@ -236,10 +260,10 @@ public class FinalRPSGame {
     }
 
     
-    /** METHOD TO CONVERT INT INTO IMAGE OF HAND PLAYED
-     * 
-     * @param x
-     * @return handImage
+    /** 
+     * METHOD TO CONVERT INT INTO IMAGE OF HAND PLAYED
+     * @param x (playerHand, compHand)
+     * @return handImage String
      */
     public static String handImageMETHOD(int x)
     {
