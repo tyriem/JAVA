@@ -109,7 +109,7 @@ public class MethodSplitting {
         }
     }
     
-        /**
+    /**
      * Prints the word equivalent of the number provided
      * @param number 
      */
