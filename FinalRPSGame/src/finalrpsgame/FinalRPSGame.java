@@ -159,7 +159,8 @@ public class FinalRPSGame {
             }
         
     }
-    /** METHOD TO PRINT GAME LOGO
+    /** 
+     * METHOD TO PRINT GAME LOGO
      * 
      */
     public static void showLogoMETHOD()
@@ -236,8 +237,8 @@ public class FinalRPSGame {
         }
     }
     
-    /** METHOD TO CONVERT INT INTO NAME OF HAND PLAYED
-     * 
+    /** 
+     * METHOD TO CONVERT INT INTO NAME OF HAND PLAYED
      * @param x (playerHand, compHand)
      * @return handName String
      */
