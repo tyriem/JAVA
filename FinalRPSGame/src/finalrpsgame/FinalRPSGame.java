@@ -133,6 +133,24 @@ public class FinalRPSGame {
         System.out.println("Thanks For Playing.");
         System.out.println("You won " + numOfWins + " time(s) and lost " + numOfLosses + " time(s).");
         
+        //Performance Evaluation
+        //IF STATEMENT FOR PERFORMANCE EVAL
+        //Player Win Logic
+        if(numOfWins > numOfLosses)
+            {
+                System.out.println("Great Job, " + name + " you beat the computer!");   
+            }
+            //Player Lose Logic
+            else if(numOfWins < numOfLosses)
+            {
+                System.out.println("Sorry, " + name + " the computer beat you!");   
+            }
+            //Player-Computer Draw Logic
+            else if(numOfWins == numOfLosses)
+            {
+                System.out.println("You tied with the computer!");   
+            }
+        
     }
     /** METHOD TO PRINT GAME LOGO
      * 
