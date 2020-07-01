@@ -27,7 +27,7 @@ import java.util.*;
  * @author T
  * @contributor: TMRM
  * @project: Intro To Java - FINAL: Rock, Paper, Scissors Game
- * @version: 1.0 
+ * @version: 1.1.1 
  * @since Jun 26, 2020
  */
 public class FinalRPSGame {
