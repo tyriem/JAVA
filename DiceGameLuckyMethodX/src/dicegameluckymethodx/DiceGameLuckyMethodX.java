@@ -96,7 +96,7 @@ public class DiceGameLuckyMethodX {
         return dice;
     }
     
-  /**
+    /**
      * Prints the word equivalent of the number provided
      * @param number 
      */
@@ -125,7 +125,7 @@ public class DiceGameLuckyMethodX {
         }
     }
     
-        /**
+    /**
      * Prints the word equivalent of the number provided
      * @param number 
      */
