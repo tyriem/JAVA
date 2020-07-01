@@ -85,10 +85,8 @@ public class AssignmentGradeCalc {
            {
            letter = 'A';
            }
-        else
-           System.out.println("You have entered an invalid entry");
         
-        //return letter when method letterGrade called
+        //Return letter when method letterGrade called
         return (letter);
     }     
 
