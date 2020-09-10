@@ -41,7 +41,8 @@ public class Arrays {
         
 //Integer ARRAY DECLARATION
         //An Array is not a class but as a data structure we need to declare new
-        //Create an integer array to store 3 values
+        
+        //TASK: Create an integer array to store 3 values
         int[] numbers = new  int[3];
         
         numbers[0] = 1;
@@ -50,7 +51,9 @@ public class Arrays {
         
         //Print the value of the first element in the array
         System.out.println(numbers[0]);
+        //Print the value of the second element in the array
         System.out.println(numbers[1]);
+        //Print the value of the third element in the array
         System.out.println(numbers[2]);
         //If we go further we will get an out of bounds error      
         //System.out.println(numbers[3]);
@@ -96,7 +99,26 @@ public class Arrays {
         System.out.println(alpha[0]);
         System.out.println(alpha[1]);
         System.out.println(alpha[2]);
-      
+
+//MAKING AN ARRAY WITH SIMPLE DEFINITION      
+        //We can define an array without referencing the index but then we have to remember the index ourselves
+        double height[] = {5.5,4.9,6.2};
+        System.out.println(height[1]);
+ 
+//MAKING A COMPLEX ARRAY
+        //We can define an array with multiple dimensions (multidimension array/complex array)
+        int[][] complexArray = {{3,6,9},{5,10,15},{9,18,27}};
+        //NB: First [] sets the array you want to access and the second sets the element in that array you want
+        System.out.println(complexArray[1][1]);
+
+//MAKING A SIMPLE ARRAY FROM A COMPLEX ARRAY
+        for (int[] mySimpleArray : complexArray) {
+            for (int i = 0; i < mySimpleArray.length; i++) {
+                System.out.print(mySimpleArray[i] + "\t");
+            }
+        }
+
+        
 //MAKING AN ARRAY WITH LIMITS DEFINED BY USER       
        //Initialize Scanner
        Scanner kb = new Scanner(System.in);  
