@@ -33,15 +33,15 @@ public class JILabExerPrimeNumEval {
      
      //Pull the user input into the memory buffer
      int valInput = kb.nextInt();
-     
+     boolean valTest = isPrime(valInput);
      System.out.println( "---------------------------------------------------");
      // Logic for Prime
-        if (valInput % 2 == 1)
+        if (valTest = false)
           {
           System.out.println( valInput + " (is) a Prime Number");  
           }
      // Logic for Non-Prime
-        else if (valInput % 2 == 0)
+        else if (valTest = true)
              {
             System.out.println( valInput + " is (not) a Prime Number");  
              }
@@ -52,4 +52,16 @@ public class JILabExerPrimeNumEval {
             }
     }
 
+    //Method to test valInput as Prime
+    public static boolean isPrime(int valInput) {
+
+    for (int i = 2; i * i <= valInput; i++) {
+        if (valInput % i == 0) {
+            return false;
+        }
+    }
+
+    return true;
+}
+    
 }
