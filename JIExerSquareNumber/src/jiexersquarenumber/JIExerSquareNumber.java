@@ -20,12 +20,12 @@ public class JIExerSquareNumber {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //Declare Variable Num
-        double num = 2;
-        //Declare and set logic for squaredNum (num*num)
-        double squaredNum = (num * num);
-        //Print squaredNum
-        System.out.print(squaredNum);
+        //Declare Variable Number
+        double number = 2;
+        //Declare and set logic for squaredNumber (number*number)
+        double squaredNumber = (number * number);
+        //Print squaredNumber
+        System.out.print(squaredNumber);
     }
 
 }
