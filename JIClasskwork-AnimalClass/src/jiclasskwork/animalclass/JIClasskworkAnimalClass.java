@@ -28,7 +28,7 @@ public class JIClasskworkAnimalClass {
         
         //[ANIMAL: DOG]
         //Call the Class
-        //Start are new mem location: dog1
+        //Start a new mem location: dog1
         Animal dog1 = new Animal();
         //Set var legs to 4 for dog1
         dog1.legs = 4;
@@ -43,7 +43,7 @@ public class JIClasskworkAnimalClass {
 
         //[ANIMAL: CAT]
         //Call the Class
-        //Start are new mem location: cat1
+        //Start a new mem location: cat1
         Animal cat1 = new Animal();
         //Set var legs to 4 for cat1
         cat1.legs = 4;
