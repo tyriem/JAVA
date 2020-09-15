@@ -26,7 +26,7 @@ public class JIClasskworkAnimalClass {
         //Initialize var catFur OUTSIDE OF LOOP
         String catFur = ""; 
         
-        //[ANIMAL DOG]
+        //[ANIMAL: DOG]
         //Call the Class
         //Start are new mem location: dog1
         Animal dog1 = new Animal();
@@ -41,7 +41,7 @@ public class JIClasskworkAnimalClass {
         //Set var fur to true for dog1
         dog1.fur = true;
 
-        //[ANIMAL CAT]
+        //[ANIMAL: CAT]
         //Call the Class
         //Start are new mem location: cat1
         Animal cat1 = new Animal();
