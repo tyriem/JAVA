@@ -64,7 +64,7 @@ public class JIClasskworkAnimalClass {
            catFur = "has fur";
         }
         
-        //Print a sentence
+        //Print sentence referencing variables for dog1 & cat1
         System.out.println("My dog has " + dog1.legs + " legs and " + dog1.paws + " paws; and my cat " + catNose + " and " + catFur + ".");
     }
     
