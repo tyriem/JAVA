@@ -29,39 +29,26 @@ public class JILabExerPrimeNumEval {
      
     //Ask the user to enter the number to be evaluated
 
-     System.out.println("Please enter the value to be evaluated: ");
+     System.out.println("Please enter the value to be evaluated for primality: ");
      
      //Pull the user input into the memory buffer
-     int valInput = kb.nextInt();
-     boolean valTest = isPrime(valInput);
+     int num = kb.nextInt();
+     boolean flag = false;
      System.out.println( "---------------------------------------------------");
-     // Logic for Prime
-        if (valTest = false)
-          {
-          System.out.println( valInput + " (is) a Prime Number");  
-          }
-     // Logic for Non-Prime
-        else if (valTest = true)
-             {
-            System.out.println( valInput + " is (not) a Prime Number");  
-             }
-     // Logic for Invalid Input Error
-        else 
-            {  
-            System.out.println("You have input an invalid value. Please Try Again.");
+
+        for(int i = 2; i <= num/2; ++i)
+        {
+            //LOGIC for non-prime
+            if(num % i == 0)
+            {
+                flag = true;
+                break;
             }
-    }
-
-    //Method to test valInput as Prime
-    public static boolean isPrime(int valInput) {
-
-    for (int i = 2; i * i <= valInput; i++) {
-        if (valInput % i == 0) {
-            return false;
         }
-    }
 
-    return true;
-}
-    
+        if (!flag)
+            System.out.println(num + " is a prime number.");
+        else
+            System.out.println(num + " is not a prime number.");
+    }
 }
