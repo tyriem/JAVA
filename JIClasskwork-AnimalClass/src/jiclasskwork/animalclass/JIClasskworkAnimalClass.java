@@ -56,10 +56,12 @@ public class JIClasskworkAnimalClass {
         //Set var fur to true for cat1
         cat1.fur = true;
         
+        //IF Statement tying cat1.nose bool to String catNose
         if (cat1.nose = true){
            catNose = "has a nose";
         }
         
+        //IF Statement tying cat1.fur bool to String catFur
         if (cat1.fur = true){
            catFur = "has fur";
         }
