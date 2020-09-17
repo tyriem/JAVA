@@ -30,10 +30,10 @@ public class JIClassworkAnimalGETSET {
         
         //IF-ELSE Statement tying cat1.nose bool to String catNose
         if (dog1.height < 5){
-           System.out.println("Brians says 'yip yip'");
+           System.out.println("Brian says 'yip yip'");
         }
         else
-           System.out.println("Brians says 'bark bark'");
+           System.out.println("Brian says 'bark bark'");
         
         
     }
