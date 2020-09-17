@@ -1,5 +1,6 @@
 //NB: WHEN SETTING UP A CLASS OUTSIDE OF THE MAIN 
 //WE MUST SPECIFY THAT THE CLASS IS WITHIN THE SAME PACKAGE OR IT CANNOT BE REFERENCED
+//NB: WE SHOULD MAKE A FILE FOR EACH CONSTRUCTED CLASS
 package ji.classes;
 
 /*
@@ -12,8 +13,9 @@ package ji.classes;
  *
  * @author T
  */
-//Declare the Class
+//Construct the Class
 public class Vehicle {
+    
 //Declare the State variables of the Class
     String type;
     int wheels;
