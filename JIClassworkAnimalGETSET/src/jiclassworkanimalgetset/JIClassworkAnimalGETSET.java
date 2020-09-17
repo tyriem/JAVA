@@ -28,7 +28,7 @@ public class JIClassworkAnimalGETSET {
         dog1.size = 5;
         dog1.age = 3;
         
-        //IF-ELSE Statement tying cat1.nose bool to String catNose
+        //IF-ELSE Statement to print based on size variable
         if (dog1.size < 5){
            System.out.println("Brian says 'yip yip'");
         }
