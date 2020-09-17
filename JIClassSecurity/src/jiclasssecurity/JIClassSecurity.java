@@ -21,9 +21,9 @@ public class JIClassSecurity {
      */
     public static void main(String[] args) {
        
-    //[HUMAN: Tyrie]
+        //Start a new mem location: human1
         Person human1 = new Person();
-        //Set VARs for car1
+        //Set variable name for human1
         human1.name = "Tyrie";
     }
 
