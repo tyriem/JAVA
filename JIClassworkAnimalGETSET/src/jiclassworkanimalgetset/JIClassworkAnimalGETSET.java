@@ -10,7 +10,7 @@ package jiclassworkanimalgetset;
  *
  * @author T
  * @contributor: TMRM
- * @project: Intermediate Java - 
+ * @project: Intermediate Java - Classwork: G&S + If
  * @version: 1.0 
  * @since Sep 17, 2020
  */
@@ -27,6 +27,15 @@ public class JIClassworkAnimalGETSET {
         dog1.name = "Brian";
         dog1.height = 5;
         dog1.age = 3;
+        
+        //IF-ELSE Statement tying cat1.nose bool to String catNose
+        if (dog1.height < 5){
+           System.out.println("Brians says 'yip yip'");
+        }
+        else
+           System.out.println("Brians says 'bark bark'");
+        
+        
     }
 
     public static class Dog {
