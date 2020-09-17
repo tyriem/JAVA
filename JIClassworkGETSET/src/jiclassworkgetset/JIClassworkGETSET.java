@@ -30,7 +30,7 @@ public class JIClassworkGETSET {
         car1.make = "Toyota";
         car1.classType = "Hatchback";
         car1.model = "Trueno";
-        car1.year = "1986";
+        car1.year = 1986;
 
         
         //[Car: Bunta's Subaru]
@@ -41,7 +41,7 @@ public class JIClassworkGETSET {
         car2.make = "Subaru";       
         car2.classType = "Coupe";
         car2.model = "Impreza";
-        car2.year = "1998";
+        car2.year = 1998;
       
         //Print Objects
         System.out.println(car1.make + car1.classType + car1.model + car1.year);
@@ -52,7 +52,7 @@ public static class Car {
     private String make;
     private String classType;
     private String model;
-    private String year;
+    private int year;
 
     
     ///GETTER & SETTER: MAKE
@@ -90,12 +90,12 @@ public static class Car {
     
      ///GETTER & SETTER: YEAR
     // Getter
-    public String getYear() {
+    public int getYear() {
     return year;
   }
 
     // Setter
-    public void setYear(String newYear) {
+    public void setYear(int newYear) {
     this.year = newYear;
   }
 }
