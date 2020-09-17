@@ -30,7 +30,7 @@ public class JIClassworkObjectCreation {
         car1.make = "Toyota";
         car1.classType = "Hatchback";
         car1.model = "Trueno";
-        car1.year = "1986";
+        car1.year = 1986;
 
         
         //[Car: Bunta's Subaru]
@@ -41,7 +41,7 @@ public class JIClassworkObjectCreation {
         car2.make = "Subaru";       
         car2.classType = "Coupe";
         car2.model = "Impreza";
-        car2.year = "1998";
+        car2.year = 1998;
         
         //[Car: Aikawa's Lancer EVO]
         //Call the Class and Construct the appropriate Object
@@ -51,7 +51,7 @@ public class JIClassworkObjectCreation {
         car3.make = "Mitsubishi";       
         car3.classType = "Sedan";
         car3.model = "Lancer EVO V";
-        car3.year = "1998";
+        car3.year = 1998;
         
         //[Car: Keisuke's RX-7]
         //Call the Class and Construct the appropriate Object
@@ -61,7 +61,7 @@ public class JIClassworkObjectCreation {
         car4.make = "Mazda";       
         car4.classType = "Coupe";
         car4.model = "RX-7";
-        car4.year = "1991";
+        car4.year = 1991;
         
         //[Car: Atsuro's Skyline]
         //Call the Class and Construct the appropriate Object
@@ -71,7 +71,7 @@ public class JIClassworkObjectCreation {
         car5.make = "Nissan";       
         car5.classType = "Coupe";
         car5.model = "Skyline 25GT Turbo";
-        car5.year = "1997";
+        car5.year = 1997;
         
         
     }
@@ -80,7 +80,7 @@ public class JIClassworkObjectCreation {
         public String make;
         public String classType;
         public String model;
-        public String year;
+        public int year;
 
     }
 }
