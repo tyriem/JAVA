@@ -19,6 +19,12 @@ package ji.classes;
 
 public class JIClasses {
 
+        //Call the NON-STATIC Class 
+        //NB: IF WE CALL A NON-STATIC Class we have to do it outside of the STATIC Main
+        Vegetable onion = new Vegetable();
+
+
+    
     /**
      * @param args the command line arguments
      */
@@ -46,8 +52,15 @@ public class JIClasses {
         
     }
 
-        //Start a new class Animal
+        //Start a new CLASS Animal
         public static class Animal {
+        //Declare the State variable name
+        public String name;
+
+        }
+        
+        //Start a new NON-STATIC CLASS Vegetable
+        public class Vegetable {
         //Declare the State variable name
         public String name;
 
