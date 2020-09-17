@@ -14,7 +14,6 @@ package ji.classes;
  * @version: 1.0 
  * @since Sep 15, 2020
  */
-//
 
 
 public class JIClasses {
@@ -52,14 +51,14 @@ public class JIClasses {
         
     }
 
-        //Start a new CLASS Animal
+        //Construct a new CLASS Animal
         public static class Animal {
         //Declare the State variable name
         public String name;
 
         }
         
-        //Start a new NON-STATIC CLASS Vegetable
+        //Construct a new NON-STATIC CLASS Vegetable
         public class Vegetable {
         //Declare the State variable name
         public String name;
