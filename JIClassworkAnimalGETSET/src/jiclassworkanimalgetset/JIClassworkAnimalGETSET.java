@@ -10,7 +10,7 @@ package jiclassworkanimalgetset;
  *
  * @author T
  * @contributor: TMRM
- * @project: Intermediate Java - Classwork: G&S + If
+ * @project: Intermediate Java - Classwork: G&S + If-Else
  * @version: 1.0 
  * @since Sep 17, 2020
  */
