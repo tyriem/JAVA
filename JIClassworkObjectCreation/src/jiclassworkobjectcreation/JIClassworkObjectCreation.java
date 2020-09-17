@@ -20,13 +20,13 @@ public class JIClassworkObjectCreation {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       ///[CARS]
+        ///[CARS]
         
         //[CAR: Takumi's AE86]
-        //Call the Class
+        //Call the Class and Construct the appropriate Object
         //Start a new mem location: car1
         Car car1 = new Car();
-        //Set var name for car1
+        //Set VARs for car1
         car1.make = "Toyota";
         car1.classType = "Hatchback";
         car1.model = "Trueno";
@@ -34,40 +34,40 @@ public class JIClassworkObjectCreation {
 
         
         //[Car: Bunta's Subaru]
-        //Call the Class
+        //Call the Class and Construct the appropriate Object
         //Start a new mem location: car2
         Car car2 = new Car();
-        //Set var name for car2
+        //Set VARs for car2
         car2.make = "Subaru";       
         car2.classType = "Coupe";
         car2.model = "Impreza";
         car2.year = "1998";
         
-         //[Car: Aikawa's Lancer EVO]
-        //Call the Class
+        //[Car: Aikawa's Lancer EVO]
+        //Call the Class and Construct the appropriate Object
         //Start a new mem location: car3
         Car car3 = new Car();
-        //Set var name for car3
+        //Set VARs for car3
         car3.make = "Mitsubishi";       
         car3.classType = "Sedan";
         car3.model = "Lancer EVO V";
         car3.year = "1998";
         
         //[Car: Keisuke's RX-7]
-        //Call the Class
+        //Call the Class and Construct the appropriate Object
         //Start a new mem location: car4
         Car car4 = new Car();
-        //Set var name for car4
+        //Set VARs for car4
         car4.make = "Mazda";       
         car4.classType = "Coupe";
         car4.model = "RX-7";
         car4.year = "1991";
         
         //[Car: Atsuro's Skyline]
-        //Call the Class
+        //Call the Class and Construct the appropriate Object
         //Start a new mem location: car5
         Car car5 = new Car();
-        //Set var name for car5
+        //Set VARs for car5
         car5.make = "Nissan";       
         car5.classType = "Coupe";
         car5.model = "Skyline 25GT Turbo";
