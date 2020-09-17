@@ -25,11 +25,11 @@ public class JIClassworkAnimalGETSET {
         Dog dog1 = new Dog();
         //Set variable name for human1
         dog1.name = "Brian";
-        dog1.height = 5;
+        dog1.size = 5;
         dog1.age = 3;
         
         //IF-ELSE Statement tying cat1.nose bool to String catNose
-        if (dog1.height < 5){
+        if (dog1.size < 5){
            System.out.println("Brian says 'yip yip'");
         }
         else
@@ -41,7 +41,7 @@ public class JIClassworkAnimalGETSET {
     public static class Dog {
     //NB: Here we set the states/behaviours as private to restrict access to it    
     private String name;
-    private int height;
+    private int size;
     private int age;
 
     ///G&S: NAME
@@ -55,15 +55,15 @@ public class JIClassworkAnimalGETSET {
     this.name = newName;
   }
     
-    ///G&S: HEIGHT
+    ///G&S: SIZE
     // Getter
-    public int getHeight() {
-    return height;
+    public int getSize() {
+    return size;
   }
 
     // Setter
-    public void setHeight(int newHeight) {
-    this.height = newHeight;
+    public void setSize(int newSize) {
+    this.size = newSize;
   }
     
     ///G&S: AGE
