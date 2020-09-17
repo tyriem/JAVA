@@ -10,7 +10,7 @@ package jiexeroperators;
  *
  * @author T
  * @contributor: TMRM
- * @project: Intermediate Java - 
+ * @project: Intermediate Java - Exercise: Operators
  * @version: 1.0 
  * @since Sep 8, 2020
  */
