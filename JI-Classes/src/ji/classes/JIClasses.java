@@ -5,7 +5,7 @@
  */
 
 package ji.classes;
-import java.util.*;
+
 /**
  *
  * @author T
@@ -24,11 +24,11 @@ public class JIClasses {
      */
     public static void main(String[] args) {
         
-        Scanner in = new Scanner(System.in);
         
-        
-        //Call the Class
+        //Call the Class from outside the main JAVA file
+        //Start a new mem location: truck
         Vehicle truck = new Vehicle();
+        //Give the new memory location assigned value
         truck.wheels = 4;
         truck.fuel = "diesel";
         truck.doors = 2;
@@ -38,7 +38,18 @@ public class JIClasses {
         motorbike.fuel = "gas";
         motorbike.doors = 0;
         
+        //Call the Class from within the main JAVA file
+        //Start a new mem location: dog
+        Animal dog = new Animal();
+        //Set var name for dog
+        dog.name = "Spot";
         
     }
 
+        //Start a new class Animal
+        public static class Animal {
+        //Declare the State variable name
+        public String name;
+
+        }
 }
