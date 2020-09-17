@@ -43,7 +43,7 @@ public class JIClassworkGETSET {
         car2.model = "Impreza";
         car2.year = "1998";
       
-        //Print Test
+        //Print Objects
         System.out.println(car1.make + car1.classType + car1.model + car1.year);
         System.out.println(car2.make + car2.classType + car2.model + car2.year);
     }
