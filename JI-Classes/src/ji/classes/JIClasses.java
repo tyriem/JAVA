@@ -18,6 +18,8 @@ package ji.classes;
 
 public class JIClasses {
 
+        //CONSTRUCTOR
+        //NB: We use Constructors to call from a class, especially one with private vars
         //Call the NON-STATIC Class 
         //NB: IF WE CALL A NON-STATIC Class we have to do it outside of the STATIC Main
         Vegetable onion = new Vegetable();
