@@ -327,7 +327,6 @@ public class JIClassworkInheritance {
         
         //PERSON OBJ: user1_0
         Person user1_0 = new Person(fN, mN, lN, em, he, ag, ge);
-        user1_0.contact();
         
         //COVIDFORM OBJ: user1_1
         CovidForm user1_1 = new CovidForm(fN, mN, lN, em, he, ag, ge, is, eC, pV, sy);
@@ -335,7 +334,8 @@ public class JIClassworkInheritance {
         //COVIDFORM OBJ: user1_2
         BankAccount user1_2 = new BankAccount(fN, mN, lN, em, he, ag, ge, aT, aN, ba);
         
-        //OUTPUT       
+        //OUTPUT 
+        System.out.println("-------------------------------------------------");
         System.out.println("[FORM INFORMATION]");
         System.out.println("----------");
         System.out.println("[PERSONAL]");
@@ -346,6 +346,7 @@ public class JIClassworkInheritance {
         System.out.println("Height: " + user1_0.getHeight() + " cm");
         System.out.println("Age: " + user1_0.getAge());
         System.out.println("Gender: " + user1_0.getGender());
+        System.out.println("----------");
         System.out.println("[EPIDEMIOLOGY]");
         System.out.println("Island: " + user1_1.getIsland());
         System.out.println("Emergency Contact: " + user1_1.getEmergencyContact());
@@ -356,8 +357,9 @@ public class JIClassworkInheritance {
         System.out.println("Account Type: " + user1_2.getAccountType());
         System.out.println("Account #: " + user1_2.getAccountNumber());
         System.out.println("Account Balance: " + user1_2.getBalance() + " BSD");
-        System.out.println("--------------------");
+        System.out.println("-------------------------------------------------");
         user1_0.contact();
+        System.out.println("-------------------------------------------------");
     }
 
 }
