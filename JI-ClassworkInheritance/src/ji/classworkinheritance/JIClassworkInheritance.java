@@ -126,7 +126,7 @@ class Person {
     
     /// BEHAVIORS ///
     public void contact(){
-        System.out.println("To contact this individual e-mail: " + getEmail());
+        System.out.println("To contact this individual, e-mail: " + getEmail());
     }
 }
 
