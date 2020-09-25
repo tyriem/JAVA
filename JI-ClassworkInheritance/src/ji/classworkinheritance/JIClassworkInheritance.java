@@ -263,57 +263,57 @@ public class JIClassworkInheritance {
        Scanner kb = new Scanner(System.in);
        
 /// PERSON INPUT ///
-//Accept User Input: First Name
+    //Accept User Input: First Name
        System.out.println("Please Enter Your First Name: ");
        String fN = kb.nextLine();
- //Accept User Input: Middle Name
+    //Accept User Input: Middle Name
        System.out.println("Please Enter Your Middle Name: ");
        String mN = kb.nextLine();      
- //Accept User Input: Last Name
+    //Accept User Input: Last Name
        System.out.println("Please Enter Your Last Name: ");
        String lN = kb.nextLine();  
- //Accept User Input: EMAIL
+    //Accept User Input: EMAIL
        System.out.println("Please Enter Your Email Address: ");
        String em = kb.nextLine(); 
-  //Accept User Input: Height
+    //Accept User Input: Height
        System.out.println("Please Enter Your Height (in centimeters): ");
        double he = kb.nextDouble();
-   //Accept User Input: Age
+    //Accept User Input: Age
        System.out.println("Please Enter Your Age: ");
        int ag = kb.nextInt();        
-  //Accept User Input: Gender
+    //Accept User Input: Gender
         System.out.println("Please Enter Your Gender: (F)emale, (M)ale, (O)ther");   
         //CLEAR OUT THE SCANNER
         kb.nextLine();
-  //CONVERT THE USER INPUT INTO PREDICTED TEXT CHAR
+       //CONVERT THE USER INPUT INTO PREDICTED TEXT CHAR
        //Accept The Raw User Input
        String rawGender = kb.nextLine();
        //Force the Case of the input to UpperCase. Strip the first character of their input and put it in a char
        char ge = rawGender.toUpperCase().charAt(0);
     
- /// CovidForm INPUT ///
-//Accept User Input: Island
+/// CovidForm INPUT ///
+    //Accept User Input: Island
        System.out.println("Please Enter The Name Of The Island You Reside On: ");
        String is = kb.nextLine();       
-//Accept User Input: Emergency Contact
+    //Accept User Input: Emergency Contact
        System.out.println("Please Enter The Name And Number Of Your Emergency Contact: ");
        String eC = kb.nextLine();
-//Accept User Input: Emergency Contact
+    //Accept User Input: Emergency Contact
        System.out.println("Please Enter The Name Of All Places You Have Visited In The Last 30 Days (separate by a comma): ");
        String pV = kb.nextLine();
-//Accept User Input: Emergency Contact
+    //Accept User Input: Emergency Contact
        System.out.println("Please Enter Any Symptoms You Have Experienced Over The Last 30 Days (separate by a comma): ");
        String sy = kb.nextLine();
        
- /// BankAccount INPUT ///
-//Accept User Input: Account Type
+/// BankAccount INPUT ///
+    //Accept User Input: Account Type
        System.out.println("Please Enter The Type Of Account To Access: (S)avings, (C)hequing, (F)ixed Deposit, (B)usiness: ");
-  //CONVERT THE USER INPUT INTO PREDICTED TEXT CHAR
-       //Accept The Raw User Input
+       //CONVERT THE USER INPUT INTO PREDICTED TEXT CHAR
+    //Accept The Raw User Input
        String rawAcct = kb.nextLine();
        //Force the Case of the input to UpperCase. Strip the first character of their input and put it in a char
        char aT = rawAcct.toUpperCase().charAt(0);       
-//Accept User Input: Account #
+    //Accept User Input: Account #
        System.out.println("Please Enter The Number of Your Account: ");
        int aN = kb.nextInt();
        
@@ -321,7 +321,7 @@ public class JIClassworkInheritance {
         //Call random and attach it to rndNum
         //WE ONLY NEED TO CREATE THE HOLDER FOR RANDOM ONCE as we are using the cointainer again and again
         Random rndNum = new Random();
-                //Generate the random variables and constrain them to the given limits (1 - 10 inc.)
+        //Generate the random variables and constrain them to the given limits (1 - 10 inc.)
         int ba = rndNum.nextInt(10000)+1;
 
         
