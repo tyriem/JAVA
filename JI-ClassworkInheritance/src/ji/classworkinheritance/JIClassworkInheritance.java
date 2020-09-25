@@ -290,10 +290,7 @@ public class JIClassworkInheritance {
        String rawGender = kb.nextLine();
        //Force the Case of the input to UpperCase. Strip the first character of their input and put it in a char
        char ge = rawGender.toUpperCase().charAt(0);
-
-       //CLEAR OUT THE SCANNER
-       kb.nextLine();
-       
+    
  /// CovidForm INPUT ///
 //Accept User Input: Island
        System.out.println("Please Enter The Name Of The Island You Reside On: ");
@@ -308,14 +305,9 @@ public class JIClassworkInheritance {
        System.out.println("Please Enter Any Symptoms You Have Experienced Over The Last 30 Days (separate by a comma): ");
        String sy = kb.nextLine();
        
-       //CLEAR OUT THE SCANNER
-       kb.nextLine();
-       
  /// BankAccount INPUT ///
 //Accept User Input: Account Type
        System.out.println("Please Enter The Type Of Account To Access: (S)avings, (C)hequing, (F)ixed Deposit, (B)usiness: ");
-        //CLEAR OUT THE SCANNER
-        kb.nextLine();
   //CONVERT THE USER INPUT INTO PREDICTED TEXT CHAR
        //Accept The Raw User Input
        String rawAcct = kb.nextLine();
@@ -363,7 +355,7 @@ public class JIClassworkInheritance {
         System.out.println("[BANKING]");
         System.out.println("Account Type: " + user1_2.getAccountType());
         System.out.println("Account #: " + user1_2.getAccountNumber());
-        System.out.println("Account Balance: " + user1_2.getBalance());
+        System.out.println("Account Balance: " + user1_2.getBalance() + " BSD");
         System.out.println("--------------------");
         user1_0.contact();
     }
