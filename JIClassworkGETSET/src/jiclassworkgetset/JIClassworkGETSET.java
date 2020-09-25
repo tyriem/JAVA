@@ -62,7 +62,7 @@ public static class Car {
   }
 
     // Setter
-    public void setName(String newMake) {
+    public void setMake(String newMake) {
     this.make = newMake;
   }
     
