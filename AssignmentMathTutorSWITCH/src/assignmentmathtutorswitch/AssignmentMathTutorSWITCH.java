@@ -81,7 +81,7 @@ public class AssignmentMathTutorSWITCH {
    
 
 //Accept User Input: Operation
-        System.out.println("Please Select The Operation Type: (A)ddition, (S)ubtraction), (M)ultiplication, (D)ivision, (E)xponents");
+        System.out.println("Please Select The Operation Type: (A)ddition, (S)ubtraction, (M)ultiplication, (D)ivision, (E)xponents");
                        
 ///CONVERT THE USER INPUT INTO PREDICTED TEXT 'S'
        //Accept The Raw User Input
