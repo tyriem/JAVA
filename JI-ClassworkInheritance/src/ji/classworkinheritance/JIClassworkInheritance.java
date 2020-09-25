@@ -6,7 +6,8 @@
 
 /*
  * [OBJECTIVE]
- * Make Main, Person Super Class, CV19 Sub Class, BankAcct. Sub Class & allow user to input values. All as one .JAVA file
+ * Make Main, Person Super Class, CovidForm Sub Class, BankAccount Sub Class 
+ * & allow user to input appropriate values. Submit as single .JAVA file.
  * [OBJECTIVE]
  */
 
