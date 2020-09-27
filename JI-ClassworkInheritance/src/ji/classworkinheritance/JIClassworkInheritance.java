@@ -35,9 +35,9 @@ class Person {
     private char gender;
 
     
-    /// Constructor: Person ///
+    /// Method: Person ///
     public Person(){}
-
+    /// Constructor: Person ///
     public Person(String newFirstName, String newMiddleName, String newLastName, String newEmail, double newHeight, int newAge, char newGender){
         // NB: We use the this.X to specify to the JVM which instance of the variable we are working from
         this.firstName = newFirstName;
