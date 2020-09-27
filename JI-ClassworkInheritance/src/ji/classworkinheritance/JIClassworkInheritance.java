@@ -362,7 +362,7 @@ public class JIClassworkInheritance {
         System.out.println("[BANKING]");
         System.out.println("Account Type: " + user1_2.getAccountType());
         System.out.println("Account #: " + user1_2.getAccountNumber());
-        System.out.println("Account Balance: " + user1_2.getBalance() + " BSD");
+        System.out.println("Account Balance: $" + user1_2.getBalance() + " BSD");
         System.out.println("-------------------------------------------------");
         user1_0.contact();
         System.out.println("-------------------------------------------------");
