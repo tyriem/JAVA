@@ -143,7 +143,7 @@ class CovidForm extends Person {
     private String placesVisited;
     private String symptoms;
 
-    /// Constructor + Inheritance ///
+    /// Constructor + Inheritance: CovideForm from Person ///
     public CovidForm(String newFirstName,String newMiddleName, String newLastName, String newEmail, double newHeight, int newAge, char newGender, String island, String emergencyContact, String placesVisited, String symptoms ) {
 	super(newFirstName, newMiddleName, newLastName, newEmail, newHeight, newAge, newGender);
 	this.island = island;
@@ -210,7 +210,7 @@ class BankAccount extends Person {
     private int accountNumber;
     private double balance;
 
-    // Constructor
+    /// Constructor + Inheritance: BankAccount from Person ///
     public BankAccount(String newFirstName,String newMiddleName, String newLastName, String newEmail, double newHeight, int newAge, char newGender, char accountType, int accountNumber, double balance) {
             super(newFirstName, newMiddleName, newLastName, newEmail, newHeight, newAge, newGender );
             this.accountType = accountType;
@@ -340,7 +340,7 @@ public class JIClassworkInheritance {
         //COVIDFORM OBJ: user1_2
         BankAccount user1_2 = new BankAccount(fN, mN, lN, em, he, ag, ge, aT, aN, ba);
         
-        //OUTPUT 
+        /// OUTPUT /// 
         System.out.println("-------------------------------------------------");
         System.out.println("[FORM INFORMATION]");
         System.out.println("----------");
