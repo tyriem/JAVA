@@ -143,7 +143,7 @@ class CovidForm extends Person {
     private String placesVisited;
     private String symptoms;
 
-    /// Constructor + Inheritance: CovideForm from Person ///
+    /// Constructor + Inheritance: CovidForm from Person ///
     public CovidForm(String newFirstName,String newMiddleName, String newLastName, String newEmail, double newHeight, int newAge, char newGender, String island, String emergencyContact, String placesVisited, String symptoms ) {
 	super(newFirstName, newMiddleName, newLastName, newEmail, newHeight, newAge, newGender);
 	this.island = island;
