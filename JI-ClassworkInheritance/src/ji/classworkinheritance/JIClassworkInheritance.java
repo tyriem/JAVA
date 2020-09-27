@@ -258,9 +258,10 @@ class BankAccount extends Person {
 
 }
 
-//MAIN
+
 public class JIClassworkInheritance {
 
+//MAIN    
     /**
      * @param args the command line arguments
      */
