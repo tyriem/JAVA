@@ -325,7 +325,7 @@ public class JIClassworkInheritance {
        System.out.println("Please Enter The Number of Your Account: ");
        int aN = kb.nextInt();
        
-         //GENERATE THE VARIABLES AND RANDOM NUMBERS
+         //GENERATE THE Random value for Balance VAR
         //Call random and attach it to rndNum
         //WE ONLY NEED TO CREATE THE HOLDER FOR RANDOM ONCE as we are using the cointainer again and again
         Random rndNum = new Random();
