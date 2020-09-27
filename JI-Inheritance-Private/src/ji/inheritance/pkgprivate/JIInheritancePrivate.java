@@ -25,7 +25,7 @@ public class JIInheritancePrivate {
         Animal dog = new Animal(false, "chow", 4);
 
         //Call the states established in the super class
-        System.out.println("Is the dog Vegetarian?" + dog.getVegetarian());
+        System.out.println("Is the dog Vegetarian? " + dog.getVegetarian());
         System.out.println("Dog eats " + dog.getEats());
         System.out.println("Dog has " + dog.getNoOfLegs() + " legs.");
 
