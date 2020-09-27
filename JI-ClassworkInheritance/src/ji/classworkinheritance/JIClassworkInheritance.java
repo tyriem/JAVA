@@ -258,6 +258,7 @@ class BankAccount extends Person {
 
 }
 
+//MAIN
 public class JIClassworkInheritance {
 
     /**
@@ -327,7 +328,7 @@ public class JIClassworkInheritance {
         //Call random and attach it to rndNum
         //WE ONLY NEED TO CREATE THE HOLDER FOR RANDOM ONCE as we are using the cointainer again and again
         Random rndNum = new Random();
-        //Generate the random variables and constrain them to the given limits (1 - 10 inc.)
+        //Generate the random variables and constrain them to the given limits (1 - 10,000 inc.)
         int ba = rndNum.nextInt(10000)+1;
 
         
