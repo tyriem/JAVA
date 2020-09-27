@@ -31,7 +31,7 @@ public class JIInheritancePrivate {
 
         
         //Create a new object (cat) from the sub class (Cat) that extends the super class (Animal)
-        //NB: In the args we set teh VARs that were established in the SUPER class and the SUB class
+        //NB: In the args we set the VARs that were established in the SUPER class and the SUB class
         Cat cat = new Cat(false, "milk", 4, "black");
 
         //Call the states established in the super class and the sub class
