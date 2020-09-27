@@ -34,9 +34,12 @@ class Person {
     private int age;
     private char gender;
 
+    
+    /// Constructor: Person ///
     public Person(){}
 
     public Person(String newFirstName, String newMiddleName, String newLastName, String newEmail, double newHeight, int newAge, char newGender){
+        // NB: We use the this.X to specify to the JVM which instance of the variable we are working from
         this.firstName = newFirstName;
         this.middleName = newMiddleName;
         this.lastName = newLastName;
@@ -140,61 +143,62 @@ class CovidForm extends Person {
     private String placesVisited;
     private String symptoms;
 
-        public CovidForm(String newFirstName,String newMiddleName, String newLastName, String newEmail, double newHeight, int newAge, char newGender, String island, String emergencyContact, String placesVisited, String symptoms ) {
-		super(newFirstName, newMiddleName, newLastName, newEmail, newHeight, newAge, newGender);
-		this.island = island;
-                this.emergencyContact = emergencyContact;
-                this.placesVisited = placesVisited;
-                this.symptoms = symptoms;
-	}
+    /// Constructor + Inheritance ///
+    public CovidForm(String newFirstName,String newMiddleName, String newLastName, String newEmail, double newHeight, int newAge, char newGender, String island, String emergencyContact, String placesVisited, String symptoms ) {
+	super(newFirstName, newMiddleName, newLastName, newEmail, newHeight, newAge, newGender);
+	this.island = island;
+        this.emergencyContact = emergencyContact;
+        this.placesVisited = placesVisited;
+        this.symptoms = symptoms;
+    }
     
 
 
-        /// GETTERS & SETTERS ///
+    /// GETTERS & SETTERS ///
 
-            /// G&S: ISLAND
-            // GETTER
-            public String getIsland() {
-                return island;
-            }
+    /// G&S: ISLAND
+    // GETTER
+    public String getIsland() {
+        return island;
+    }
 
-            // SETTER
-            public void setIsland(String island) {
-                this.island = island;
-            }
+    // SETTER
+    public void setIsland(String island) {
+        this.island = island;
+    }
             
-            /// G&S: EMERGENCYCONTACT
-            // GETTER
-            public String getEmergencyContact() {
-                return emergencyContact;
-            }
+    /// G&S: EMERGENCYCONTACT
+    // GETTER
+    public String getEmergencyContact() {
+        return emergencyContact;
+    }
 
-            // SETTER
-            public void setEmergencyContact(String emergencyContact) {
-                this.emergencyContact = emergencyContact;
-            }
+    // SETTER
+    public void setEmergencyContact(String emergencyContact) {
+        this.emergencyContact = emergencyContact;
+    }
             
-            /// G&S: PLACESVISITED
-            // GETTER
-            public String getPlacesVisited() {
-                return placesVisited;
-            }
+    /// G&S: PLACESVISITED
+    // GETTER
+    public String getPlacesVisited() {
+        return placesVisited;
+    }
 
-            // SETTER
-            public void setPlacesVisited(String placesVisited) {
-                this.placesVisited = placesVisited;
-            }
-            
-            /// G&S: SYMPTOMS
-            // GETTER
-            public String getSymptoms() {
-                return symptoms;
-            }
+    // SETTER
+    public void setPlacesVisited(String placesVisited) {
+        this.placesVisited = placesVisited;
+    }
 
-            // SETTER
-            public void setSymptoms(String symptoms) {
-                this.symptoms = symptoms;
-            }
+    /// G&S: SYMPTOMS
+    // GETTER
+    public String getSymptoms() {
+        return symptoms;
+    }
+
+    // SETTER
+    public void setSymptoms(String symptoms) {
+        this.symptoms = symptoms;
+    }
 
 }
 
@@ -206,49 +210,50 @@ class BankAccount extends Person {
     private int accountNumber;
     private double balance;
 
-        public BankAccount(String newFirstName,String newMiddleName, String newLastName, String newEmail, double newHeight, int newAge, char newGender, char accountType, int accountNumber, double balance) {
-		super(newFirstName, newMiddleName, newLastName, newEmail, newHeight, newAge, newGender );
-		this.accountType = accountType;
-                this.accountNumber = accountNumber;
-                this.balance = balance;
-	}
+    // Constructor
+    public BankAccount(String newFirstName,String newMiddleName, String newLastName, String newEmail, double newHeight, int newAge, char newGender, char accountType, int accountNumber, double balance) {
+            super(newFirstName, newMiddleName, newLastName, newEmail, newHeight, newAge, newGender );
+            this.accountType = accountType;
+            this.accountNumber = accountNumber;
+            this.balance = balance;
+    }
     
 
 
-        /// GETTERS & SETTERS ///
+    /// GETTERS & SETTERS ///
 
-            /// G&S: ACCOUNTTYPE
-            // GETTER
-            public char getAccountType() {
-                return accountType;
-            }
+    /// G&S: ACCOUNTTYPE
+    // GETTER
+    public char getAccountType() {
+        return accountType;
+    }
 
-            // SETTER
-            public void setAccountType(char accountType) {
-                this.accountType = accountType;
-            }
-            
-            /// G&S: ACCOUNTNUMBER
-            // GETTER
-            public int getAccountNumber() {
-                return accountNumber;
-            }
+    // SETTER
+    public void setAccountType(char accountType) {
+        this.accountType = accountType;
+    }
 
-            // SETTER
-            public void setEccountNumber(int accountNumber) {
-                this.accountNumber = accountNumber;
-            }
-            
-            /// G&S: BALANCE
-            // GETTER
-            public double getBalance() {
-                return balance;
-            }
+    /// G&S: ACCOUNTNUMBER
+    // GETTER
+    public int getAccountNumber() {
+        return accountNumber;
+    }
 
-            // SETTER
-            public void setBalance(double balance) {
-                this.balance = balance;
-            }
+    // SETTER
+    public void setAccountNumber(int accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    /// G&S: BALANCE
+    // GETTER
+    public double getBalance() {
+        return balance;
+    }
+
+    // SETTER
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
             
 
 }
@@ -287,7 +292,7 @@ public class JIClassworkInheritance {
         //CLEAR OUT THE SCANNER
         kb.nextLine();
        //CONVERT THE USER INPUT INTO PREDICTED TEXT CHAR
-       //Accept The Raw User Input
+    //Accept The Raw User Input
        String rawGender = kb.nextLine();
        //Force the Case of the input to UpperCase. Strip the first character of their input and put it in a char
        char ge = rawGender.toUpperCase().charAt(0);
