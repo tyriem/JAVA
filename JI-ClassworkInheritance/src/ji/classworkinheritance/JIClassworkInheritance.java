@@ -339,7 +339,7 @@ public class JIClassworkInheritance {
         //COVIDFORM OBJ: user1_1
         CovidForm user1_1 = new CovidForm(fN, mN, lN, em, he, ag, ge, is, eC, pV, sy);
         
-        //COVIDFORM OBJ: user1_2
+        //BANKACCOUNT OBJ: user1_2
         BankAccount user1_2 = new BankAccount(fN, mN, lN, em, he, ag, ge, aT, aN, ba);
         
         /// OUTPUT /// 
