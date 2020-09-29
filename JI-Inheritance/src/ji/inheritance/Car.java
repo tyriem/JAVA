@@ -13,6 +13,14 @@ package ji.inheritance;
 class Car extends Vehicle {
 //NB: Private & Public are access modifiers
 // Java assumes Public if you don't specify
-  public String modelName = "Mustang";    // Car attribute
-  }
+// Car attribute
+  public String modelName = "Mustang";    
+ 
+//OVERRIDE
+// NB: @Override tells the JVM to replace the original state or behavior in the super class with another one in the sub class
+    @Override
+    public void honk(){
+        System.out.println("Ah-oooooooooooooooooooooogah");
+    }
+}
 
