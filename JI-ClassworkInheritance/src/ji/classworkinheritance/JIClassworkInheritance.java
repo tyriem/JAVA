@@ -26,6 +26,7 @@ import java.util.*;
 class Person {
 
     /// STATES ///
+    // NB: Variables established here are 'Instance Variables'
     private String firstName;
     private String middleName;
     private String lastName;
@@ -39,7 +40,7 @@ class Person {
     public Person(){}
     /// Constructor: Person ///
     public Person(String newFirstName, String newMiddleName, String newLastName, String newEmail, double newHeight, int newAge, char newGender){
-        // NB: We use the this.X to specify to the JVM which instance of the variable we are working from
+        // NB: We use the this.X to specify to the JVM which instance of the variable(X) we are working from
         this.firstName = newFirstName;
         this.middleName = newMiddleName;
         this.lastName = newLastName;
@@ -325,7 +326,7 @@ public class JIClassworkInheritance {
        System.out.println("Please Enter The Number of Your Account: ");
        int aN = kb.nextInt();
        
-         //GENERATE THE Random value for Balance VAR
+        //GENERATE THE Random value for Balance VAR
         //Call random and attach it to rndNum
         //WE ONLY NEED TO CREATE THE HOLDER FOR RANDOM ONCE as we are using the cointainer again and again
         Random rndNum = new Random();
@@ -333,40 +334,40 @@ public class JIClassworkInheritance {
         int ba = rndNum.nextInt(10000)+1;
 
         
-        //PERSON OBJ: user1_0
-        Person user1_0 = new Person(fN, mN, lN, em, he, ag, ge);
+        //PERSON OBJ: user1_person
+        Person user1_person = new Person(fN, mN, lN, em, he, ag, ge);
         
-        //COVIDFORM OBJ: user1_1
-        CovidForm user1_1 = new CovidForm(fN, mN, lN, em, he, ag, ge, is, eC, pV, sy);
+        //COVIDFORM OBJ: user1_covid
+        CovidForm user1_covid = new CovidForm(fN, mN, lN, em, he, ag, ge, is, eC, pV, sy);
         
-        //BANKACCOUNT OBJ: user1_2
-        BankAccount user1_2 = new BankAccount(fN, mN, lN, em, he, ag, ge, aT, aN, ba);
+        //BANKACCOUNT OBJ: user1_bank
+        BankAccount user1_bank = new BankAccount(fN, mN, lN, em, he, ag, ge, aT, aN, ba);
         
         /// OUTPUT /// 
         System.out.println("-------------------------------------------------");
         System.out.println("[FORM INFORMATION]");
         System.out.println("----------");
         System.out.println("[PERSONAL]");
-        System.out.println("First Name: " + user1_0.getFirstName());
-        System.out.println("Middle Name: " + user1_0.getMiddleName());
-        System.out.println("Last Name: " + user1_0.getLastName());
-        System.out.println("E-mail: " + user1_0.getEmail());
-        System.out.println("Height: " + user1_0.getHeight() + " cm");
-        System.out.println("Age: " + user1_0.getAge());
-        System.out.println("Gender: " + user1_0.getGender());
+        System.out.println("First Name: " + user1_person.getFirstName());
+        System.out.println("Middle Name: " + user1_person.getMiddleName());
+        System.out.println("Last Name: " + user1_person.getLastName());
+        System.out.println("E-mail: " + user1_person.getEmail());
+        System.out.println("Height: " + user1_person.getHeight() + " cm");
+        System.out.println("Age: " + user1_person.getAge());
+        System.out.println("Gender: " + user1_person.getGender());
         System.out.println("----------");
         System.out.println("[EPIDEMIOLOGY]");
-        System.out.println("Island: " + user1_1.getIsland());
-        System.out.println("Emergency Contact: " + user1_1.getEmergencyContact());
-        System.out.println("Places Visited: " + user1_1.getPlacesVisited());
-        System.out.println("Symptoms Presented: " + user1_1.getSymptoms());
+        System.out.println("Island: " + user1_covid.getIsland());
+        System.out.println("Emergency Contact: " + user1_covid.getEmergencyContact());
+        System.out.println("Places Visited: " + user1_covid.getPlacesVisited());
+        System.out.println("Symptoms Presented: " + user1_covid.getSymptoms());
         System.out.println("----------");
         System.out.println("[BANKING]");
-        System.out.println("Account Type: " + user1_2.getAccountType());
-        System.out.println("Account #: " + user1_2.getAccountNumber());
-        System.out.println("Account Balance: $" + user1_2.getBalance() + " BSD");
+        System.out.println("Account Type: " + user1_bank.getAccountType());
+        System.out.println("Account #: " + user1_bank.getAccountNumber());
+        System.out.println("Account Balance: $" + user1_bank.getBalance() + " BSD");
         System.out.println("-------------------------------------------------");
-        user1_0.contact();
+        user1_person.contact();
         System.out.println("-------------------------------------------------");
     }
 
