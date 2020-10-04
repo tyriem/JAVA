@@ -21,7 +21,12 @@
  *  Write the following methods (instance methods):
  *  Method named getHeight without any parameters, it needs to return the value of height field.
  *  Method named getVolume without any parameters, it needs to return the calculated volume. To calculate volume multiply the area with height.
+ *
  * REQUIRES JDK VERSION <= 1.6
+ * NOTE: All ​methods should be defined as public NOT public static.
+ * NOTE: In total, you have to write 2 classes.
+ * NOTE: Make sure to put each class in its own file. See tabs to the left.
+ * NOTE: Do not add a main method to the solution code.
  * [OBJECTIVE]
  */
 
