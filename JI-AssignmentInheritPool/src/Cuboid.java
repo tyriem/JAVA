@@ -4,14 +4,6 @@
  * [LICENSE INFORMATION]
  */
 
-/**
- *
- * @author T
- * @contributor: TMRM
- * @project: Intermediate Java - Assignment: Inheritance Pool Calculation
- * @version: 1.0 
- * @since Sep 30, 2020
- */
 
 // Define the SUB CLASS
 /// SUB CLASS: Cuboid //
