@@ -28,7 +28,7 @@
  *
  * @author T
  * @contributor: TMRM
- * @project: Intermediate Java - Assignment: Inheritance Pool Calculation
+ * @project: Intermediate Java - Assignment: Inheritance Pool Calculation (JDK <= 1.6)
  * @version: 1.0 
  * @since Sep 30, 2020
  */
