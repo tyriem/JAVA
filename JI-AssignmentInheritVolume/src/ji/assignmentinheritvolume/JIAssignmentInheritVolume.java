@@ -153,7 +153,7 @@ public class JIAssignmentInheritVolume {
        //CIRCLE OBJ: shape0_1
        Circle shape0_1 = new Circle(circRad);
         
-       //CIRCLE OBJ: shape0_1
+       //CYLINDER OBJ: shape0_1
        Cylinder shape0_2 = new Cylinder(circRad, cylHei);
        
        /// OUTPUT /// 
