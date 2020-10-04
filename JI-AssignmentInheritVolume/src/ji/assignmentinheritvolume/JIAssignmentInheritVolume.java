@@ -164,7 +164,7 @@ public class JIAssignmentInheritVolume {
         System.out.println("----------");
         System.out.println("[CYLINDER INFORMATION]");
         System.out.println("Cylinder Height: " + shape0_2.getHeight() + "cm");
-        System.out.println("Cylinder Height: " + shape0_2.getArea() + "cm");
+        System.out.println("Cylinder Area: " + shape0_2.getArea() + "cm");
         System.out.println("Cylinder Volume: " + shape0_2.getVolume() + "cm^3");
         System.out.println("-------------------------------------------------");
         //shape0_1.printRad();
