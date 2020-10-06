@@ -34,9 +34,9 @@ public class Cuboid extends Rectangle {
         //NB: THIS ONLY WORKS IN JAVA JDK <=1.6
         //NB: IF THE VALUES INSIDE OR INIT CAN BE STATIC INSTEAD OF INSTANCE
         System.out.println("[Cuboid INFORMATION]");
-        System.out.println("Cuboid Height: " + getHeight() + "cm");
-        System.out.println("Cuboid Area: " + getArea() + "cm");
-        System.out.println("Cuboid Volume: " + getVolume() + "cm^3");
+        System.out.println("Cuboid Height: " + getHeight() + "m");
+        System.out.println("Cuboid Area: " + getArea() + "m");
+        System.out.println("Cuboid Volume: " + getVolume() + "m^3");
         System.out.println("-------------------------------------------------");
     }
 }
