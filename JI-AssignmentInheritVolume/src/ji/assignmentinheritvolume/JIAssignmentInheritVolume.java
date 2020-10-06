@@ -73,8 +73,9 @@ class Circle {
     
     // G&S: AREA //
     // GETTER for area var
+    // Area of a Circle: (r^2(Pi) = (r*r)*Pi)
     public double getArea() {
-        return (radius * radius * Math.PI);
+        return ((radius * radius) * Math.PI);
     }
 
     // SETTER for area var
@@ -101,7 +102,7 @@ class Cylinder extends Circle {
 		super(radius);
 // Set the this.X to the args
 // NB: We can set the variable's value here
-		this.height=Math.max(0, height);
+		this.height = Math.max(0, height);
 	}
 
 
@@ -120,6 +121,7 @@ class Cylinder extends Circle {
 
     // G&S: VOLUME //
     // GETTER for volume var
+    // Volume of a Cylinder = Area of the Circle under the cylinder * height of the cylinder
     public double getVolume() {
         return (getArea() * height);
     }
