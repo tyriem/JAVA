@@ -28,7 +28,7 @@ class Rectangle {
 // Set the this.X to the args
 //Force any var radius < 0 to 0
         this.width = Math.max(0, width);
-        this.length = Math.max(0, width);
+        this.length = Math.max(0, length);
     }
 
     /// GETTERS & SETTERS ///
