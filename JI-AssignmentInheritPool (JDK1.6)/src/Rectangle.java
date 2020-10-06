@@ -76,9 +76,9 @@ public class Rectangle {
         //NB: IF THE VALUES INSIDE OR INIT CAN BE STATIC INSTEAD OF INSTANCE
         System.out.println("-------------------------------------------------");
         System.out.println("[RECTANGLE INFORMATION]");
-        System.out.println("Rectangle Width: " + getWidth() + "cm");
-        System.out.println("Rectangle Length: " + getLength() + "cm");
-        System.out.println("Rectangle Area: " + getArea() + "cm^2");
+        System.out.println("Rectangle Width: " + getWidth() + "m");
+        System.out.println("Rectangle Length: " + getLength() + "m");
+        System.out.println("Rectangle Area: " + getArea() + "m^2");
         System.out.println("----------");
     }
 }
