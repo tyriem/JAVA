@@ -12,8 +12,9 @@ package ji.classes;
 /**
  *
  * @author T
+ * @project: Intermediate Java - Classes
  */
-//Construct the Class
+//Define the Class
 public class Vehicle {
     
 //Declare the State variables of the Class
