@@ -9,6 +9,8 @@
  * @author T
  * @project: Intermediate Java - Classwork: Object Lifetime Counter
  */
+
+/// Public Class: Cat ///
 public class Cat {
     // Init catCount
     //NB: We have to init catCount as public static because we are outside of the main
