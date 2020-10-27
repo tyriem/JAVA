@@ -17,8 +17,10 @@ public class Cat {
     this.name = name;
     }
     /// FINALIZE THE OBJECT ///
-    //NB: Finalizing of an object is an old garbage collection technique where you manually free the memory of the values of an object
+    //Finalizing of an object is an old garbage collection technique where you manually free the memory of the values of an object by calling a method
     //Modern programming by and large does not require such manual garbage collection but it is good to know how to perform it.
+    // NB: IDE prefers an @Override to open the finalize statement
+    @Override
     protected void finalize() throws Throwable
     {
         System.out.println(name + " has been destroyed.");
