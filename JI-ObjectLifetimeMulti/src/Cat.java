@@ -21,7 +21,7 @@ public class Cat {
     public void finalize() throws Throwable
     {
         // Print Finalization Message
-        System.out.println("Cat was destroyed.");
+        System.out.println("A Cat was destroyed.");
     }
 }
 
@@ -32,6 +32,6 @@ class Dog{
     public void finalize() throws Throwable
     {
         // Print Finalization Message
-        System.out.println("Dog was destroyed.");
+        System.out.println("A Dog was destroyed.");
     }
 }
