@@ -8,6 +8,7 @@ package ji.inheritance.pkgprivate;
 /**
  *
  * @author T
+ * @project: Intermediate Java - Inheritance (PRIVATE)
  */
 
 // Define the SUPER CLASS
