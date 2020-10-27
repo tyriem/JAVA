@@ -51,7 +51,7 @@ class Circle {
 // Set the method for the class
     public Circle(){}
 
-// Set the contructor for the class
+// Set the constructor for the class
     public Circle(double radius){
 // Set the this.X to the args
 //Force any var radius < 0 to 0
@@ -162,12 +162,12 @@ public class JIAssignmentInheritVolume {
         System.out.println("-------------------------------------------------");
         System.out.println("[CIRCLE INFORMATION]");
         System.out.println("Circle Radius: " + shape0_1.getRadius() + "cm");
-        System.out.println("Circle Area: " + shape0_1.getArea() + "cm^2");
+        System.out.println("Circle Area: ~" + Math.round(shape0_1.getArea()) + "cm^2");
         System.out.println("----------");
         System.out.println("[CYLINDER INFORMATION]");
         System.out.println("Cylinder Height: " + shape0_2.getHeight() + "cm");
-        System.out.println("Cylinder Area: " + shape0_2.getArea() + "cm");
-        System.out.println("Cylinder Volume: " + shape0_2.getVolume() + "cm^3");
+        System.out.println("Cylinder Area: ~" + Math.round(shape0_2.getArea()) + "cm");
+        System.out.println("Cylinder Volume: ~" + Math.round(shape0_2.getVolume()) + "cm^3");
         System.out.println("-------------------------------------------------");
         //shape0_1.printRad();
         System.out.println("-------------------------------------------------");
