@@ -29,7 +29,7 @@ public class Cat {
     /// FINALIZE THE OBJECT ///
     public void finalize() throws Throwable
     {
-        // Decrement catCount
+    // Decrement catCount
         catCount--;
     }
 }
