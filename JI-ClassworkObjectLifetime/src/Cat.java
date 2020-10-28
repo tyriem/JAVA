@@ -4,6 +4,17 @@
  * [LICENSE INFORMATION]
  */
 
+/*
+ * [OBJECTIVE]
+ * In the Cat class, create a protected void finalize() throws Throwable method.
+ * Requirements:
+ * The Cat class must have a method called finalize.
+ * The finalize method should not return anything (void).
+ * The finalize method must be protected.
+ * The finalize method can throw a Throwable exception. Indicate this in the method declaration.
+ * [OBJECTIVE]
+ */
+
 /**
  *
  * @author T
