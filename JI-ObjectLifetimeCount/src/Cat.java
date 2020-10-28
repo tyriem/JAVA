@@ -4,6 +4,18 @@
  * [LICENSE INFORMATION]
  */
 
+/*
+ * [OBJECTIVE]
+ * In the Cat class constructor, i.e. public Cat(), increment the cat counter (the Cat class's static variable catCount) by 1. Decrement it by 1 in the finalize method.
+ * Requirements:
+ * Add a constructor without parameters to the Cat class, i.e. public Cat().
+ * The constructor must increment the value of the variable catCount by 1.
+ * Add the finalize method to the Cat class.
+ * The finalize method should not return anything (the return type is void).
+ * The finalize method should reduce the variable catCount by 1.
+ * [OBJECTIVE]
+ */
+
 /**
  *
  * @author T
