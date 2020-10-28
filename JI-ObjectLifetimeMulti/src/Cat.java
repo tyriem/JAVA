@@ -4,6 +4,18 @@
  * [LICENSE INFORMATION]
  */
 
+/*
+ * [OBJECTIVE]
+ * In each class (Cat and Dog), write a finalize method that displays text about a particular object being destroyed.
+ * Requirements:
+ * The Cat class must have a void finalize method.
+ * The Dog class must have a void finalize method.
+ * The Cat and Dog classes must not have constructors or must have constructors without parameters.
+ * The Cat class's finalize method should display "A Cat was destroyed".
+ * The Dog class's finalize method should display "A Dog was destroyed".
+ * [OBJECTIVE]
+ */
+
 /**
  *
  * @author T
