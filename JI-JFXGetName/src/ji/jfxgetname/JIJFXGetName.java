@@ -6,7 +6,7 @@
 
 /*
  * [OBJECTIVE]
- *  OBJECTIVE
+ *  Write a JavaFX Program that prints a name to console when a button is pressed
  * [OBJECTIVE]
  */
 
@@ -33,13 +33,14 @@ public class JIJFXGetName extends Application {
     public void start(Stage primaryStage) {
         Button btn = new Button();
         btn.setText("Get Name");
-        btn.setOnAction(new EventHandler<ActionEvent>() {
+    //Siplified EVENT LOGIC
+    //NB: Here we can set the button action directly without a later @Override
+        btn.setOnAction(event -> {
+            System.out.println("The Name is: ");
+            System.out.println("Tyrie Moss");
+        }); 
 
-            @Override
-            public void handle(ActionEvent event) {
-                System.out.println("Tyrie Moss!");
-            }
-        });
+
 
         StackPane root = new StackPane();
         root.getChildren().add(btn);
