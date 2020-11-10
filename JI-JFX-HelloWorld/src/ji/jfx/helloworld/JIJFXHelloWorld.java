@@ -23,25 +23,39 @@ import javafx.stage.Stage;
  */
 public class JIJFXHelloWorld extends Application {
     
+    
     @Override
+    /// START UP THE STAGE ///
     public void start(Stage primaryStage) {
+        
+    /// BUTTON LOGIC ///
+    //Set a new button
         Button btn = new Button();
-        btn.setText("Say 'Hello World'");
+    //Set the text on the button
+        btn.setText("Print 'Hello World' To Console");
+    //Attach the clicking of the button to an action
         btn.setOnAction(new EventHandler<ActionEvent>() {
-            
+    //BUTTON PRESS LOGIC       
             @Override
             public void handle(ActionEvent event) {
+    //Print to console when button is pressed
                 System.out.println("Hello World!");
             }
         });
         
+    //This defines where the elements appear on the program window
+    //NB: StackPane layout = new StackPane(); is an alternative where we control the layout more granularly
         StackPane root = new StackPane();
         root.getChildren().add(btn);
         
+        //DEFINE the size of the window
         Scene scene = new Scene(root, 500, 350);
         
+        //SETTER to set the Title of the Program Window
         primaryStage.setTitle("Hello World!");
+        //Set which scene the window comes from
         primaryStage.setScene(scene);
+        //Show the Window
         primaryStage.show();
     }
 
@@ -49,6 +63,8 @@ public class JIJFXHelloWorld extends Application {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+    
+    // LAUNCH the JavaFX Program
         launch(args);
     }
     
