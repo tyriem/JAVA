@@ -13,10 +13,9 @@
 package ji.jfxgetname;
 
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+//Import the StackPane Layout Engine
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 /**
