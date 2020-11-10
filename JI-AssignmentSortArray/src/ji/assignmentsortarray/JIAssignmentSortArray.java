@@ -43,7 +43,8 @@ public class JIAssignmentSortArray {
     public static void main(String[] args) {
 
            //Initialize Scanner
-           Scanner kb = new Scanner(System.in);  
+           Scanner kb = new Scanner(System.in); 
+           
            //Declare VARs
            int totalSum = 0;
            int evenSum = 0;
