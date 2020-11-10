@@ -124,7 +124,6 @@ public class Arrays {
        Scanner kb = new Scanner(System.in);  
        
        //Ask the user to enter the size of the array
-       //Ask the user to enter the size of the array
        System.out.println("Please Enter The Number Of Elements: ");
        int numOfElements = kb.nextInt();
        
