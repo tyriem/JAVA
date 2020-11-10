@@ -16,6 +16,10 @@ import javafx.stage.Stage;
 /**
  *
  * @author T
+ * @contributor: TMRM
+ * @project: Intermediate Java - JavaFX: HelloWorld GUI
+ * @version: 1.0 
+ * @since Nov 10, 2020
  */
 public class JIJFXHelloWorld extends Application {
     
@@ -34,7 +38,7 @@ public class JIJFXHelloWorld extends Application {
         StackPane root = new StackPane();
         root.getChildren().add(btn);
         
-        Scene scene = new Scene(root, 300, 250);
+        Scene scene = new Scene(root, 500, 350);
         
         primaryStage.setTitle("Hello World!");
         primaryStage.setScene(scene);
