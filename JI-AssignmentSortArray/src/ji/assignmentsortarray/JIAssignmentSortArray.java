@@ -100,7 +100,7 @@ public class JIAssignmentSortArray {
            
            System.out.println("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");
            
-           //Compare the Two Numbers and Print the Larger Value
+           //Compare the Two Totals and Print the Evaluation
            
            if (evenSum == oddSum)
             {
