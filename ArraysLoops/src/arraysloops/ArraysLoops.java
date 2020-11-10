@@ -86,7 +86,7 @@ public class ArraysLoops {
            //Create an array of integers
            int[] numBack = new int[ARRAY_SIZE_BCKWRDS];
            
-           //NB: WE USE THE - 1 TO PUT OURSELVES IN THE INDEX RANGE
+           //For Loop to Define the Array
            for (int indexBck = 0; indexBck < ARRAY_SIZE_BCKWRDS; indexBck++)
            {
                //Ask the user for the value to put into the array element 
@@ -96,11 +96,10 @@ public class ArraysLoops {
            
            //Print the values in the array using enhanced FOR-LOOP
            //NB: THE ENHANCED LOOP IS NOT USEFUL IN THIS CASE AS IT GOES INHERENTLY FORWARD
-           for (int indexBck = ARRAY_SIZE_BCKWRDS - 1; indexBck > 0; indexBck--)
+           for (int indexBck = ARRAY_SIZE_BCKWRDS - 1; indexBck >= 0; indexBck--)
            {
-               //Ask the user for the value to put into the array element 
-               System.out.println("Enter Numbers For The Array: ");
-               numBack[indexBck] = kb.nextInt();
+               //Print the numbers
+           System.out.println(numBack[indexBck] + " ");
            }
           
 ////////////////////////////////////////////////////////////////////////////////
