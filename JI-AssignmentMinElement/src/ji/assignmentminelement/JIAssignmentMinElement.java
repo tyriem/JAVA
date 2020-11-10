@@ -15,7 +15,7 @@
  * Tips: 
  * Assume that the user will only enter numbers, never letters. 
  * For simplicity, create a Scanner as a static field to help with data input
- * Create a new console project with the name /eMinElementChallenge/f
+ * Create a new console project with the name /assignmentminelement
  * [OBJECTIVE]
  */
 
