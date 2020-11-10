@@ -38,7 +38,11 @@ public class JIAssignmentSortArray {
     /**
      * @param args the command line arguments
      */
+    
+    //psvm
     public static void main(String[] args) {
+        
+           //Declare VARs
            int totalSum = 0;
            int evenSum = 0;
            int oddSum = 0;
