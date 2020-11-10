@@ -41,15 +41,13 @@ public class JIAssignmentSortArray {
     
     //psvm
     public static void main(String[] args) {
-        
+
+           //Initialize Scanner
+           Scanner kb = new Scanner(System.in);  
            //Declare VARs
            int totalSum = 0;
            int evenSum = 0;
            int oddSum = 0;
-           
-           //Initialize Scanner
-           Scanner kb = new Scanner(System.in);  
-           //Declare VARs
            final int ARRAY_SIZE = 15;
            
            //Create an array of integers
