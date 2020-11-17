@@ -37,7 +37,7 @@ class Controller {
     
     public void yellowBtnSound() {
         soundFile = "note3_e.wav";
-        String path = "";
+        String path = filePath + soundFile;
         media = new Media(new File(path).toURI().toString());
         mediaPlayer = new MediaPlayer(media);
         mediaPlayer.play();
@@ -45,7 +45,7 @@ class Controller {
     
     public void greenBtnSound() {
         soundFile = "note4_f.wav";
-        String path = "";
+        String path = filePath + soundFile;
         media = new Media(new File(path).toURI().toString());
         mediaPlayer = new MediaPlayer(media);
         mediaPlayer.play();
@@ -53,7 +53,7 @@ class Controller {
     
     public void blueBtnSound() {
         soundFile = "note5_g.wav";
-        String path = "";
+        String path = filePath + soundFile;
         media = new Media(new File(path).toURI().toString());
         mediaPlayer = new MediaPlayer(media);
         mediaPlayer.play();
@@ -61,15 +61,15 @@ class Controller {
     
     public void indigoBtnSound() {
         soundFile = "note6_a.wav";
-        String path = "";
+        String path = filePath + soundFile;
         media = new Media(new File(path).toURI().toString());
         mediaPlayer = new MediaPlayer(media);
         mediaPlayer.play();
     }
     
     public void violetBtnSound() {
-        soundFile = "note6_b.wav";
-        String path = "";
+        soundFile = "note7_b.wav";
+        String path = filePath + soundFile;
         media = new Media(new File(path).toURI().toString());
         mediaPlayer = new MediaPlayer(media);
         mediaPlayer.play();
