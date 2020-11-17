@@ -16,7 +16,7 @@ import javafx.scene.media.MediaPlayer;
 class Controller {
     Media media = null;
     MediaPlayer mediaPlayer = null;
-    String filePath = "C:\\Users\\T\\Desktop\\sound-files";
+    String filePath = "\\src\\sound-files\\";
     String soundFile = "";
     
     public void redBtnSound() {
@@ -37,6 +37,38 @@ class Controller {
     
     public void yellowBtnSound() {
         soundFile = "note3_e.wav";
+        String path = "";
+        media = new Media(new File(path).toURI().toString());
+        mediaPlayer = new MediaPlayer(media);
+        mediaPlayer.play();
+    }
+    
+    public void greenBtnSound() {
+        soundFile = "note4_f.wav";
+        String path = "";
+        media = new Media(new File(path).toURI().toString());
+        mediaPlayer = new MediaPlayer(media);
+        mediaPlayer.play();
+    }
+    
+    public void blueBtnSound() {
+        soundFile = "note5_g.wav";
+        String path = "";
+        media = new Media(new File(path).toURI().toString());
+        mediaPlayer = new MediaPlayer(media);
+        mediaPlayer.play();
+    }
+    
+    public void indigoBtnSound() {
+        soundFile = "note6_a.wav";
+        String path = "";
+        media = new Media(new File(path).toURI().toString());
+        mediaPlayer = new MediaPlayer(media);
+        mediaPlayer.play();
+    }
+    
+    public void violetBtnSound() {
+        soundFile = "note6_b.wav";
         String path = "";
         media = new Media(new File(path).toURI().toString());
         mediaPlayer = new MediaPlayer(media);
