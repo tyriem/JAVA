@@ -45,13 +45,12 @@ public class JIJFXAssignmentXylophone extends Application {
         Button violet = new Button();
         
         red.setOnAction(e -> btnSound.redBtnSound());
-        orange.setOnAction(e -> System.out.println("You Clicked Orange"));
-        yellow.setOnAction(e -> System.out.println("You Clicked Yellow"));
-        green.setOnAction(e -> System.out.println("You Clicked Green"));
-        blue.setOnAction(e -> System.out.println("You Clicked Blue"));
-        indigo.setOnAction(e -> System.out.println("You Clicked Indigo"));
-        violet.setOnAction(e -> System.out.println("You Clicked Violet"));
-
+        orange.setOnAction(e -> btnSound.orangeBtnSound());
+        yellow.setOnAction(e -> btnSound.yellowBtnSound());
+        green.setOnAction(e -> btnSound.greenBtnSound());
+        blue.setOnAction(e -> btnSound.blueBtnSound());
+        indigo.setOnAction(e -> btnSound.indigoBtnSound());
+        violet.setOnAction(e -> btnSound.violetBtnSound());
         
         red.setStyle("-fx-background-color: red; -fx-pref-height: 80; -fx-pref-width: 900");
         orange.setStyle("-fx-background-color: orange; -fx-pref-height: 80; -fx-pref-width: 800");
