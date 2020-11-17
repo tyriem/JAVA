@@ -45,7 +45,9 @@ public class JIJFXHBox extends Application {
         btn4.setOnAction(e -> System.out.println("Btn4 was clicked"));
 
         hBox.getChildren().addAll(btn1, btn2, btn3, btn4, btn5);
+        //Set the Spacing between the buttons
         hBox.setSpacing(5);
+        //Set the alignment of the buttons in the window
         hBox.setAlignment(Pos.CENTER);
 
         primaryStage.setScene(scene);
