@@ -21,8 +21,13 @@ class Controller {
     
     public void redBtnSound() {
         soundFile = "note1_c.wav";
+        //PLAY LOCALLY:
         String path = filePath + soundFile;
         media = new Media(new File(path).toURI().toString());
+        
+        //PLAY FROM INTERNET:
+        //media = new Media("https://github.com/tyriem/JAVA/blob/master/JI-JFXAssignmentXylophone/src/sound-files/note1_c.wav");
+        
         mediaPlayer = new MediaPlayer(media);
         mediaPlayer.play();
     }
