@@ -25,7 +25,7 @@ import javafx.stage.Stage;
  *
  * @author T
  * @contributor: TMRM
- * @project: Intermediate Java - Assignment: JavaFX Keypad
+ * @project: Intermediate Java - Assignment: JavaFX Vbox Xylophone
  * @version: 1.0 
  * @since Nov 17, 2020
  */
