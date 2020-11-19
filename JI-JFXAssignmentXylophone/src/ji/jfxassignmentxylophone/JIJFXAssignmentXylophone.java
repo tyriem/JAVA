@@ -6,7 +6,7 @@
 
 /*
  * [OBJECTIVE]
- *  OBJECTIVE
+ * Create a VBox based Xylophone with Sound Files
  * [OBJECTIVE]
  */
 
