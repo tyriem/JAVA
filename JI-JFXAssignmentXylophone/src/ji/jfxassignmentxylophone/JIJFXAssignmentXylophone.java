@@ -65,6 +65,7 @@ public class JIJFXAssignmentXylophone extends Application {
         layout.setAlignment(Pos.CENTER);
         layout.getChildren().addAll(red, orange, yellow, green, blue, indigo, violet);
         Scene scene = new Scene(layout, 1000, 600);
+        stage.setTitle("Xylo");
         stage.setScene(scene);
         stage.show();
 
